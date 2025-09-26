@@ -1,0 +1,1072 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65938B46A05B06D8"
+	group: ""
+	id: "65938B46A05B06D8"
+	order_index: 1
+	quest_links: [
+		{
+			id: "4DCBC9A050CDE6A2"
+			linked_quest: "1FDA04FF86E4A1C6"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "428C9B71CBDFA808"
+			linked_quest: "41A7A51B3F826E96"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "7E6AFCC4AAF28438"
+			linked_quest: "35E7F61071E872E6"
+			x: 12.0d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["1FDA04FF86E4A1C6"]
+			hide_dependent_lines: true
+			icon: "minecraft:grass_block"
+			id: "1F05A48417C1CEBA"
+			tasks: [{
+				id: "75E6BE9886CB290D"
+				title: "オーバーワールド"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"41A7A51B3F826E96"
+				"1F05A48417C1CEBA"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:netherrack"
+			id: "3C89375C43D5F37C"
+			tasks: [{
+				id: "422622E9BD68DC80"
+				title: "ネザー"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"35E7F61071E872E6"
+				"3C89375C43D5F37C"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:end_stone"
+			id: "4E224A4B21FA2EDE"
+			tasks: [{
+				id: "0C9924C5B1262DE2"
+				title: "エンド"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "2FB7F2E16CAE37CE"
+			tasks: [
+				{
+					id: "3A24688E3ACA9859"
+					item: "gtceu:raw_bentonite"
+					type: "item"
+				}
+				{
+					id: "53ABAEED87A695D3"
+					item: "gtceu:raw_magnesite"
+					type: "item"
+				}
+				{
+					id: "5DBDA36AC7155230"
+					item: "gtceu:raw_olivine"
+					type: "item"
+				}
+				{
+					id: "66158CCF2E722822"
+					item: "gtceu:raw_glauconite_sand"
+					type: "item"
+				}
+			]
+			title: "オリビン鉱脈"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "65775E525557E18A"
+			tasks: [
+				{
+					id: "3E633DDC0EF6848D"
+					item: "gtceu:raw_almandine"
+					type: "item"
+				}
+				{
+					id: "2A7C2B88824758F3"
+					item: "gtceu:raw_pyrope"
+					type: "item"
+				}
+				{
+					id: "4CBF3E2CA934DA45"
+					item: "gtceu:raw_sapphire"
+					type: "item"
+				}
+				{
+					id: "5273AF0F32D379A1"
+					item: "gtceu:raw_green_sapphire"
+					type: "item"
+				}
+			]
+			title: "サファイア鉱脈"
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "1CEA39037620A6F4"
+			tasks: [
+				{
+					id: "30FC69DA9DDF515B"
+					item: "gtceu:raw_goethite"
+					type: "item"
+				}
+				{
+					id: "69533C50C7CC0ACD"
+					item: "gtceu:raw_yellow_limonite"
+					type: "item"
+				}
+				{
+					id: "17EA030EEC4A075D"
+					item: "gtceu:raw_hematite"
+					type: "item"
+				}
+				{
+					id: "2997F663FD24260D"
+					item: "gtceu:raw_malachite"
+					type: "item"
+				}
+			]
+			title: "鉄鉱脈"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "766C711AF923E52C"
+			tasks: [
+				{
+					id: "0C2AB5A034CD60EB"
+					item: "gtceu:raw_soapstone"
+					type: "item"
+				}
+				{
+					id: "3B0254E1D88F506D"
+					item: "gtceu:raw_talc"
+					type: "item"
+				}
+				{
+					id: "4C8E701E3373EFDE"
+					item: "gtceu:raw_glauconite_sand"
+					type: "item"
+				}
+				{
+					id: "392D03336986D75C"
+					item: "gtceu:raw_pentlandite"
+					type: "item"
+				}
+			]
+			title: "石鹸石鉱脈"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "46CD60D2E97E4942"
+			tasks: [
+				{
+					id: "29ED8A2509605C0A"
+					item: "gtceu:raw_grossular"
+					type: "item"
+				}
+				{
+					id: "32ED19D04DFED23A"
+					item: "gtceu:raw_spessartine"
+					type: "item"
+				}
+				{
+					id: "56C178A04AEBD1DA"
+					item: "gtceu:raw_pyrolusite"
+					type: "item"
+				}
+				{
+					id: "1ED531A750BA42D0"
+					item: "gtceu:raw_tantalite"
+					type: "item"
+				}
+			]
+			title: "マンガン鉱脈"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "7D10A29009D41511"
+			tasks: [
+				{
+					id: "6CD4CDBEC73EFE39"
+					item: "gtceu:raw_chalcopyrite"
+					type: "item"
+				}
+				{
+					id: "63E77F7CB817C8D3"
+					item: "gtceu:raw_zeolite"
+					type: "item"
+				}
+				{
+					id: "42ED27310A638269"
+					item: "gtceu:raw_cassiterite"
+					type: "item"
+				}
+				{
+					id: "21B07450B1F0B743"
+					item: "gtceu:raw_realgar"
+					type: "item"
+				}
+			]
+			title: "銅-錫鉱脈"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "4468094A63DBF1B6"
+			tasks: [{
+				id: "4F69EB1DD39580DE"
+				item: "gtceu:raw_coal"
+				type: "item"
+			}]
+			title: "石炭鉱脈"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "67D5FB0898988F57"
+			tasks: [
+				{
+					id: "768AFE8CD60D0B17"
+					item: "gtceu:raw_chalcopyrite"
+					type: "item"
+				}
+				{
+					id: "36640480C933E08E"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "198D122FFB2ABC9A"
+					item: "gtceu:raw_pyrite"
+					type: "item"
+				}
+				{
+					id: "46F396A67F5EC8EC"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			title: "銅鉱脈"
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "686555D6B6C93ED5"
+			tasks: [
+				{
+					id: "4576ECE0B93C5577"
+					item: "gtceu:raw_magnetite"
+					type: "item"
+				}
+				{
+					id: "2AFE1E724E1FA2DA"
+					item: "gtceu:raw_vanadium_magnetite"
+					type: "item"
+				}
+				{
+					id: "7D942295E8442E95"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+			]
+			title: "磁鉄鉱鉱脈"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "3593E790A54F2339"
+			tasks: [
+				{
+					id: "27F55DA71FE5DA68"
+					item: "gtceu:raw_lazurite"
+					type: "item"
+				}
+				{
+					id: "5CCF2C25616F01FC"
+					item: "gtceu:raw_sodalite"
+					type: "item"
+				}
+				{
+					id: "453DBFD62FB6BE23"
+					item: "gtceu:raw_lapis"
+					type: "item"
+				}
+				{
+					id: "59594CEA7AF5A95D"
+					item: "gtceu:raw_calcite"
+					type: "item"
+				}
+			]
+			title: "ラピス鉱脈"
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "2028EC7134BA85B1"
+			tasks: [
+				{
+					id: "7CDE147D934C096A"
+					item: "gtceu:raw_galena"
+					type: "item"
+				}
+				{
+					id: "026AC28CC479BDFC"
+					item: "gtceu:raw_silver"
+					type: "item"
+				}
+				{
+					id: "30B7ABACD78592D7"
+					item: "gtceu:raw_lead"
+					type: "item"
+				}
+			]
+			title: "方鉛鉱鉱脈"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "1E40859D2C6FD8B1"
+			tasks: [
+				{
+					id: "18EE9EA0043D2DCB"
+					item: "gtceu:raw_kyanite"
+					type: "item"
+				}
+				{
+					id: "36590749E6608E7C"
+					item: "gtceu:raw_mica"
+					type: "item"
+				}
+				{
+					id: "4E56B9A3A49D74BD"
+					item: "gtceu:raw_bauxite"
+					type: "item"
+				}
+				{
+					id: "22BABAC84ED539EE"
+					item: "gtceu:raw_pollucite"
+					type: "item"
+				}
+			]
+			title: "雲母鉱脈"
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "12EFF2444FA01B34"
+			tasks: [
+				{
+					id: "5BDDC48D5731869D"
+					item: "gtceu:raw_red_garnet"
+					type: "item"
+				}
+				{
+					id: "6FEEB1FCB97CB353"
+					item: "gtceu:raw_yellow_garnet"
+					type: "item"
+				}
+				{
+					id: "050619C5CEE812DD"
+					item: "gtceu:raw_amethyst"
+					type: "item"
+				}
+				{
+					id: "76234EF9925B64E9"
+					item: "gtceu:raw_opal"
+					type: "item"
+				}
+			]
+			title: "ガーネット鉱脈"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "4E3339F250E9F7E7"
+			tasks: [
+				{
+					id: "15FA71BC99D3A764"
+					item: "gtceu:raw_basaltic_mineral_sand"
+					type: "item"
+				}
+				{
+					id: "0207E69EEFC79F56"
+					item: "gtceu:raw_granitic_mineral_sand"
+					type: "item"
+				}
+				{
+					id: "068F2C46D2F6D6E7"
+					item: "gtceu:raw_fullers_earth"
+					type: "item"
+				}
+				{
+					id: "39487C2ECEE8AF65"
+					item: "gtceu:raw_gypsum"
+					type: "item"
+				}
+			]
+			title: "石膏鉱脈"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "54941C9F1BA38A2B"
+			tasks: [
+				{
+					id: "0F8ACEAB21E284AB"
+					item: "gtceu:raw_rock_salt"
+					type: "item"
+				}
+				{
+					id: "3CC7AF1379D007C8"
+					item: "gtceu:raw_salt"
+					type: "item"
+				}
+				{
+					id: "552111DBC54967CC"
+					item: "gtceu:raw_lepidolite"
+					type: "item"
+				}
+				{
+					id: "77B5312B18C6A974"
+					item: "gtceu:raw_spodumene"
+					type: "item"
+				}
+			]
+			title: "塩鉱脈"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "1977BFE9D70FF362"
+			tasks: [
+				{
+					id: "12CADE0BC8685049"
+					item: "gtceu:raw_redstone"
+					type: "item"
+				}
+				{
+					id: "172AA89C7C039FD4"
+					item: "gtceu:raw_ruby"
+					type: "item"
+				}
+				{
+					id: "0B1B5E03987D979C"
+					item: "gtceu:raw_cinnabar"
+					type: "item"
+				}
+			]
+			title: "赤石鉱脈"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "146EA390A981E295"
+			tasks: [
+				{
+					id: "6A32784676BB685B"
+					item: "gtceu:raw_apatite"
+					type: "item"
+				}
+				{
+					id: "156B75028530968B"
+					item: "gtceu:raw_tricalcium_phosphate"
+					type: "item"
+				}
+				{
+					id: "255ED03640878801"
+					item: "gtceu:raw_pyrochlore"
+					type: "item"
+				}
+			]
+			title: "アパタイト鉱脈"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "0E67D59F3D8F535B"
+			tasks: [
+				{
+					id: "4BD581F84F9B39F6"
+					item: "gtceu:raw_cassiterite_sand"
+					type: "item"
+				}
+				{
+					id: "347F4EC2D2A35AD3"
+					item: "gtceu:raw_garnet_sand"
+					type: "item"
+				}
+				{
+					id: "50F47A2313DA42AA"
+					item: "gtceu:raw_asbestos"
+					type: "item"
+				}
+				{
+					id: "0B5F980F433C95F3"
+					item: "gtceu:raw_diatomite"
+					type: "item"
+				}
+			]
+			title: "ガーネット-錫鉱脈"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "28A3E583BBDEFD03"
+			tasks: [{
+				id: "67B37DA2240483EF"
+				item: "gtceu:raw_oilsands"
+				type: "item"
+			}]
+			title: "オイルサンド鉱脈"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "4AAEB43687B326E1"
+			tasks: [
+				{
+					id: "1EDB65FF3681A6F0"
+					item: "gtceu:raw_graphite"
+					type: "item"
+				}
+				{
+					id: "416CA105257FC268"
+					item: "gtceu:raw_diamond"
+					type: "item"
+				}
+				{
+					id: "1DC7CB0B89B913E7"
+					item: "gtceu:raw_coal"
+					type: "item"
+				}
+			]
+			title: "ダイヤモンド鉱脈"
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1F05A48417C1CEBA"]
+			id: "4C6C65349274BD9B"
+			tasks: [
+				{
+					id: "35C2743149EBE5BA"
+					item: "gtceu:raw_garnierite"
+					type: "item"
+				}
+				{
+					id: "782BD8C66F6ED68A"
+					item: "gtceu:raw_nickel"
+					type: "item"
+				}
+				{
+					id: "23E9A43DA1749F58"
+					item: "gtceu:raw_cobaltite"
+					type: "item"
+				}
+				{
+					id: "36B5A0CD70CA0C01"
+					item: "gtceu:raw_pentlandite"
+					type: "item"
+				}
+			]
+			title: "ニッケル鉱脈"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "5A6A3E7509AFE4F4"
+			tasks: [
+				{
+					id: "050FC7E5F00B69D2"
+					item: "gtceu:raw_tetrahedrite"
+					type: "item"
+				}
+				{
+					id: "2EAEDC5FFF759B16"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "5AC993B5657D55F3"
+					item: "gtceu:raw_stibnite"
+					type: "item"
+				}
+			]
+			title: "四面銅鉱鉱脈"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "5769B7968346CF77"
+			tasks: [
+				{
+					id: "4E10EFE57E309DD4"
+					item: "gtceu:raw_bastnasite"
+					type: "item"
+				}
+				{
+					id: "043A377F1B99E50C"
+					item: "gtceu:raw_monazite"
+					type: "item"
+				}
+				{
+					id: "639F2024C155C082"
+					item: "gtceu:raw_neodymium"
+					type: "item"
+				}
+			]
+			title: "モナザイト鉱脈"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "0F435B03D96CF1DE"
+			tasks: [
+				{
+					id: "2AE157E3668FA519"
+					item: "gtceu:raw_redstone"
+					type: "item"
+				}
+				{
+					id: "5B94DCF39C8CAD48"
+					item: "gtceu:raw_ruby"
+					type: "item"
+				}
+				{
+					id: "215375A674E93B89"
+					item: "gtceu:raw_cinnabar"
+					type: "item"
+				}
+			]
+			title: "赤石鉱脈"
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "02BB0C2354A2CDF9"
+			tasks: [
+				{
+					id: "680FB6CE9C78BA32"
+					item: "gtceu:raw_saltpeter"
+					type: "item"
+				}
+				{
+					id: "451BFE596BEF8FAA"
+					item: "gtceu:raw_diatomite"
+					type: "item"
+				}
+				{
+					id: "50483515DC0B70CB"
+					item: "gtceu:raw_electrotine"
+					type: "item"
+				}
+				{
+					id: "53F92895E63CAD2E"
+					item: "gtceu:raw_alunite"
+					type: "item"
+				}
+			]
+			title: "硝石鉱脈"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "02F039A56415A2DD"
+			tasks: [
+				{
+					id: "7FB0F32043AD4C09"
+					item: "gtceu:raw_beryllium"
+					type: "item"
+				}
+				{
+					id: "584B91E1973882D3"
+					item: "gtceu:raw_emerald"
+					type: "item"
+				}
+				{
+					id: "7731AA0B577256B6"
+					item: "gtceu:raw_thorium"
+					type: "item"
+				}
+			]
+			title: "ベリリウム鉱脈"
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "3819A8812DBEF21C"
+			tasks: [
+				{
+					id: "4C86A204CFA744F3"
+					item: "gtceu:raw_grossular"
+					type: "item"
+				}
+				{
+					id: "68D7B544C6F7D381"
+					item: "gtceu:raw_pyrolusite"
+					type: "item"
+				}
+				{
+					id: "3E6A1DFFFFBB1A95"
+					item: "gtceu:raw_tantalite"
+					type: "item"
+				}
+			]
+			title: "マンガン鉱脈"
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "159376F5B633D6E3"
+			tasks: [
+				{
+					id: "315A3913AD569E7A"
+					item: "gtceu:raw_wulfenite"
+					type: "item"
+				}
+				{
+					id: "33986BC5BB2100A7"
+					item: "gtceu:raw_molybdenite"
+					type: "item"
+				}
+				{
+					id: "6F70C36DAE7B46BA"
+					item: "gtceu:raw_molybdenum"
+					type: "item"
+				}
+				{
+					id: "15135E40C218587F"
+					item: "gtceu:raw_powellite"
+					type: "item"
+				}
+			]
+			title: "モリブデン鉱脈"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "65D469D6C5DB3454"
+			tasks: [
+				{
+					id: "46BBC46B88903685"
+					item: "gtceu:raw_goethite"
+					type: "item"
+				}
+				{
+					id: "05D9099CB1237E90"
+					item: "gtceu:raw_yellow_limonite"
+					type: "item"
+				}
+				{
+					id: "0F60122623CF2581"
+					item: "gtceu:raw_hematite"
+					type: "item"
+				}
+				{
+					id: "51F422CFDE78872D"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+			]
+			title: "褐鉄鉱鉱脈"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "24DE166833109B24"
+			tasks: [
+				{
+					id: "468EF39DA7AE49DA"
+					item: "gtceu:raw_quartzite"
+					type: "item"
+				}
+				{
+					id: "69B28DC244425500"
+					item: "gtceu:raw_certus_quartz"
+					type: "item"
+				}
+				{
+					id: "599E51FB55C0BB7C"
+					item: "gtceu:raw_barite"
+					type: "item"
+				}
+			]
+			title: "ケルタスクオーツ鉱脈"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "6948EA79CD28379F"
+			tasks: [
+				{
+					id: "0A90823610261939"
+					item: "gtceu:raw_blue_topaz"
+					type: "item"
+				}
+				{
+					id: "28BC4D9CEE797569"
+					item: "gtceu:raw_topaz"
+					type: "item"
+				}
+				{
+					id: "3270961B034BCF65"
+					item: "gtceu:raw_chalcocite"
+					type: "item"
+				}
+				{
+					id: "6AE968ACC82DBCF6"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+			]
+			title: "トパーズ鉱脈"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "00569B3FEF9D9B3C"
+			tasks: [
+				{
+					id: "37E2AA9733BF2157"
+					item: "gtceu:raw_nether_quartz"
+					type: "item"
+				}
+				{
+					id: "5978E923DE48283A"
+					item: "gtceu:raw_quartzite"
+					type: "item"
+				}
+			]
+			title: "ネザー水晶鉱脈"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C89375C43D5F37C"]
+			id: "172D1E09CACB533D"
+			tasks: [
+				{
+					id: "2F7E526B8F085157"
+					item: "gtceu:raw_sulfur"
+					type: "item"
+				}
+				{
+					id: "732C7369F98F8FE9"
+					item: "gtceu:raw_pyrite"
+					type: "item"
+				}
+				{
+					id: "6E865B4FF7C9677B"
+					item: "gtceu:raw_sphalerite"
+					type: "item"
+				}
+			]
+			title: "硫黄鉱脈"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E224A4B21FA2EDE"]
+			id: "04A6488728F8519F"
+			tasks: [
+				{
+					id: "1DB4DEEEF4BFE959"
+					item: "gtceu:raw_naquadah"
+					type: "item"
+				}
+				{
+					id: "570138FD563BA7D3"
+					item: "gtceu:raw_plutonium"
+					type: "item"
+				}
+			]
+			title: "ナクアダ鉱脈"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E224A4B21FA2EDE"]
+			id: "18A4BDFF5077C2FB"
+			tasks: [
+				{
+					id: "787DA4B8F03F9FF2"
+					item: "gtceu:raw_magnetite"
+					type: "item"
+				}
+				{
+					id: "7F78846F71DAE6BA"
+					item: "gtceu:raw_vanadium_magnetite"
+					type: "item"
+				}
+				{
+					id: "1021DBCF5099449D"
+					item: "gtceu:raw_chromite"
+					type: "item"
+				}
+				{
+					id: "3F95752BF9C12D89"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+			]
+			title: "磁鉄鉱鉱脈"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E224A4B21FA2EDE"]
+			id: "6CC32B1B4581E64D"
+			tasks: [
+				{
+					id: "6210C75F7EBC2968"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+				{
+					id: "1F840CF27063DD54"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+				{
+					id: "57FA63AD73783A62"
+					item: "gtceu:raw_lithium"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E224A4B21FA2EDE"]
+			id: "4E6B3058B2A3BA28"
+			tasks: [
+				{
+					id: "2F3C11CC1CC8CDE9"
+					item: "gtceu:raw_bauxite"
+					type: "item"
+				}
+				{
+					id: "4229825F0C0172A9"
+					item: "gtceu:raw_ilmenite"
+					type: "item"
+				}
+				{
+					id: "0FD1E994F53315E2"
+					item: "gtceu:raw_aluminium"
+					type: "item"
+				}
+			]
+			title: "ボーキサイト鉱脈"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E224A4B21FA2EDE"]
+			id: "07FD158985FAFA8C"
+			tasks: [
+				{
+					id: "36B858440DC0882D"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+				{
+					id: "079A4D122EB9737B"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "60C3A40595D1A379"
+					item: "gtceu:raw_platinum"
+					type: "item"
+				}
+				{
+					id: "53E1612205B9CAF0"
+					item: "gtceu:raw_palladium"
+					type: "item"
+				}
+			]
+			title: "プラチナ鉱脈"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E224A4B21FA2EDE"]
+			id: "2F86F1F45BBB4C4D"
+			tasks: [
+				{
+					id: "626A4E4711EBCDE6"
+					item: "gtceu:raw_pitchblende"
+					type: "item"
+				}
+				{
+					id: "01E8B387B24F8F6E"
+					item: "gtceu:raw_uraninite"
+					type: "item"
+				}
+			]
+			title: "瀝青ウラン鉱鉱脈"
+			x: 13.5d
+			y: 3.0d
+		}
+	]
+	title: "鉱脈"
+}

@@ -1,0 +1,6085 @@
+{
+	autofocus_id: "43439BD1005B4D57"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "788AE6EBB92B15EC"
+	group: ""
+	icon: "gtceu:max_battery"
+	id: "788AE6EBB92B15EC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["グレッグテックをプレイするともうMekanismなどでは満足できない体になってしまいます"]
+			id: "75B4C4D16736479B"
+			size: 2.0d
+			tasks: [{
+				id: "64A731AC532D7576"
+				title: "グレッグテックへようこそ！"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75B4C4D16736479B"]
+			description: [
+				"グレッグテックには鉱脈というものが存在します"
+				"普通のブランチマイニングをするとまず鉱石は見つかりません"
+				"どのように生成されるのかというと、地上に落ちているサンプルの下に塊となって生成されます"
+				"基本的に2種類以上の鉱石で鉱脈は生成され、量もかなり多いです"
+				"クエストの&l&4鉱脈&r&rタブから欲しい鉱石を探しましょう"
+			]
+			id: "1FDA04FF86E4A1C6"
+			tasks: [{
+				id: "58E5F601086E129F"
+				title: "鉱脈システム"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FDA04FF86E4A1C6"]
+			description: ["いつの時代でも引っ張りだこな金属その3"]
+			id: "44D89278D3F7E7C6"
+			tasks: [{
+				id: "5673F57D97A9CD3E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "これを嫌いになる チュートリアル パート3"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FDA04FF86E4A1C6"]
+			description: ["いつの時代でも引っ張りだこな金属その1"]
+			id: "520170217946621E"
+			tasks: [{
+				id: "116C7CF31B46AF98"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "これを嫌いになる チュートリアル パート1"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FDA04FF86E4A1C6"]
+			description: ["いつの時代でも引っ張りだこな金属その2"]
+			id: "23955171CEA3330B"
+			tasks: [{
+				id: "536F5855DC77403C"
+				item: "gtceu:tin_ingot"
+				type: "item"
+			}]
+			title: "これを嫌いになる チュートリアル パート2"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["ちゃんとレシピを見ないと見逃すということが多々あります"]
+			id: "6D1B3E6CFDBAA7BD"
+			tasks: [{
+				id: "03AD1881C2B56B9F"
+				item: "gtceu:wrought_iron_nugget"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6D1B3E6CFDBAA7BD"
+				"711D66AF02B4993E"
+			]
+			description: ["鉄よりも性能のいいツールを作れます"]
+			id: "798BD3D7202E16D0"
+			tasks: [{
+				id: "47D347EBE40E0D48"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"23955171CEA3330B"
+				"520170217946621E"
+			]
+			description: [
+				"最初の合金です！"
+				"これは蒸気時代の基本的な素材なので大量に用意しましょう"
+			]
+			id: "51158EE25D8BF2E6"
+			tasks: [{
+				id: "760057E9E105D2F1"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51158EE25D8BF2E6"]
+			id: "3E86AF146A859390"
+			tasks: [{
+				id: "09388D9DE11B8D72"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51158EE25D8BF2E6"]
+			id: "4948FCBFC8B35DBB"
+			tasks: [{
+				id: "0103C1F2B9B4C0DA"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4948FCBFC8B35DBB"]
+			description: [
+				"蒸気時代はいわばチュートリアル的な時代です"
+				"ここでグレッグテックを感じておきましょう"
+			]
+			id: "0B522C788A75B838"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5C43EFDA22038821"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "蒸気時代"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B522C788A75B838"]
+			description: [
+				"実は、パイプはもちろんレンチなどのツールも中間素材だけではないんです！"
+				"レンチでパイプを右クリックすると接続出来たり、機械を右クリックすると向きを変更できます"
+				"また、パイプは性能がそれぞれ違って温度の制限もあるので使い方には気を付けましょう"
+			]
+			id: "50C80E30D2AF2AC1"
+			tasks: [{
+				id: "77229420B7C5BDC6"
+				title: "パイプの仕様"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E7D39A282E9E398"
+				"26F0D6FF78FF3EAE"
+				"7594F4EA8D426020"
+			]
+			description: ["最初の発電機！"]
+			id: "08B24A8E389E6AA2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1C46A808CD458C18"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"69BADE0239FBDED1"
+				"2303D411D34C009D"
+			]
+			id: "26F0D6FF78FF3EAE"
+			tasks: [{
+				id: "0693F0C4687BCF81"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"478D808A54110138"
+				"579D956814D0B848"
+				"2303D411D34C009D"
+				"0EED73B565D98BAC"
+				"0758BB720C6F1D66"
+			]
+			description: [
+				"最初のLV回路です！"
+				"一度に最低でも8つは作成するのがおすすめです"
+			]
+			id: "7594F4EA8D426020"
+			tasks: [{
+				id: "088C30DDE14005A7"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2303D411D34C009D"
+				"7594F4EA8D426020"
+			]
+			description: [
+				"チュートリアルは終わりです！"
+				"ついにグレッグテックの最初の時代に到達しました！"
+				"ここからはより複雑な素材が求められるようになります"
+				"頑張ってください！"
+				"EBFを作成して、アルミニウムを手に入れるのが主な目標です"
+			]
+			id: "1E7D39A282E9E398"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "11419045FB899659"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			title: "LV時代"
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44C2E96354AC89C6"]
+			description: [
+				"大量に必要です"
+				"覚悟の準備をしておきましょう"
+			]
+			id: "49BF015E448D4AA2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6AAB71BDFA9B6266"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AB1FB05390A8E51"]
+			description: [
+				"スチールを生産してくれます"
+				"LV時代終盤まで使うので遅いと感じたら複数台おいてもいいかもしれません"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "44C2E96354AC89C6"
+			tasks: [
+				{
+					id: "5A5715572C835BC7"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7297300AFBD44ABA"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			title: "蒸気時代と言えばこれ！"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F745847772589B4"]
+			description: ["棒に赤石をまぶすと磁化します！？"]
+			id: "69BADE0239FBDED1"
+			tasks: [{
+				id: "29C18587C303215F"
+				item: "gtceu:magnetic_iron_rod"
+				type: "item"
+			}]
+			title: "アイコンがついた鉄"
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3094D0DC16DF9611"]
+			id: "0EED73B565D98BAC"
+			tasks: [{
+				id: "1727DD7A9F6FB1FB"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0FA86866D35260D1"]
+			id: "478D808A54110138"
+			tasks: [{
+				id: "7524899181B6BD35"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F745847772589B4"
+				"3FFA3CD69A9DD5AF"
+			]
+			description: ["レッドストーンを大量消費する人間の屑"]
+			id: "579D956814D0B848"
+			tasks: [{
+				id: "4E5E82CC64C9119F"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["ゴムの木から取れます"]
+			id: "3094D0DC16DF9611"
+			tasks: [{
+				id: "004DFE053A6F3193"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"合金の素材です"
+				"&n&4&l赤石の&r&r&r回路は作らなくていいよ！"
+			]
+			id: "0F745847772589B4"
+			tasks: [{
+				id: "3C7DEDD3BFA23671"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "赤石回路？なにそれおいしいの"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3FFA3CD69A9DD5AF"
+				"49BF015E448D4AA2"
+			]
+			id: "0FA86866D35260D1"
+			tasks: [{
+				id: "644867652E17ED43"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"404C723FD8ED2C17"
+				"3094D0DC16DF9611"
+			]
+			description: ["樹脂と木の板でベッタベタだぜ！"]
+			id: "0758BB720C6F1D66"
+			tasks: [{
+				id: "4F4C7E0C5C0389E3"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"711D66AF02B4993E"
+				"0E040A44D5DC2FD5"
+			]
+			id: "404C723FD8ED2C17"
+			tasks: [{
+				id: "240BFFA4E133E2A3"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B522C788A75B838"]
+			id: "3FFA3CD69A9DD5AF"
+			tasks: [{
+				id: "3527B287BB5DD8F1"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["711D66AF02B4993E"]
+			id: "7AB1FB05390A8E51"
+			tasks: [{
+				id: "123F83B694D1038B"
+				item: "gtceu:compressed_fireclay"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3E86AF146A859390"
+				"0F745847772589B4"
+			]
+			id: "711D66AF02B4993E"
+			tasks: [{
+				id: "50E5611877ABE136"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"062372FF97657D64"
+				"3E86AF146A859390"
+			]
+			description: ["鉱石を粉砕してから焼くことで粉砕しないのと比べて倍になります"]
+			id: "0E040A44D5DC2FD5"
+			tasks: [{
+				id: "13B81CBCCF0BE6F9"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			title: "鉱石倍化"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			description: ["価値が高いような気がしていたが、別にそんなことはなかったぜ！"]
+			id: "062372FF97657D64"
+			tasks: [{
+				id: "0FBDEF2168EDA0B9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "ダイヤモンド！"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0DCD44E5915D0051"]
+			description: [
+				"蒸気ボイラーの燃料のうちの一つです"
+				"石炭を使いたくないならこれを使いましょう"
+			]
+			id: "2C3772FABCA25CA6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "00867BDD0B544369"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44D89278D3F7E7C6"]
+			description: [
+				"グレッグテックではかまどで木炭を作ることができません"
+				"コークスを使って大量生産しましょう"
+			]
+			icon: "gtceu:coke_oven"
+			id: "0DCD44E5915D0051"
+			tasks: [
+				{
+					id: "717E75540B616CC9"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "53D5B4A471FB1DC5"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DCD44E5915D0051"]
+			description: ["1バケツで32個のアイテムを精錬できます"]
+			id: "2584103E6599CE7C"
+			tasks: [{
+				id: "2190116F498BCB7C"
+				item: "gtceu:creosote_bucket"
+				type: "item"
+			}]
+			title: "かまどの燃料に最適！"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0DCD44E5915D0051"]
+			id: "75192EE284D59EC6"
+			tasks: [{
+				id: "4D33434BA0E8353E"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			title: "コークス炉の自動化に"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0A94E89E9D3124D2"]
+			id: "4CCD7402439E1C18"
+			tasks: [{
+				id: "77DA854070131C84"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"49BF015E448D4AA2"
+				"3FFA3CD69A9DD5AF"
+			]
+			id: "0A94E89E9D3124D2"
+			tasks: [{
+				id: "34135E49443DF008"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49BF015E448D4AA2"]
+			description: [
+				"グレッグテックではスチールで火打石打ち金を作れます"
+				"これでネザーにいけますね！&m&7火の延焼をつかった？&r&r"
+				"ネザーにも鉱脈は生成されます"
+			]
+			id: "41A7A51B3F826E96"
+			tasks: [{
+				id: "600175C17DBD3C79"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ネザーへ旅行！"
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["41A7A51B3F826E96"]
+			description: ["実は硫黄自体は無臭"]
+			id: "0BB5681B4469BC91"
+			tasks: [{
+				id: "2893672973E6589B"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			title: "くさそうな粉"
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4CCD7402439E1C18"
+				"3094D0DC16DF9611"
+			]
+			id: "50BB2065EA6350AF"
+			tasks: [{
+				id: "250FF05E54C1F779"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0BB5681B4469BC91"
+				"50BB2065EA6350AF"
+			]
+			id: "2303D411D34C009D"
+			tasks: [{
+				id: "19D8065E846E4B45"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"798BD3D7202E16D0"
+				"49BF015E448D4AA2"
+			]
+			description: [
+				"高圧蒸気機械は、低圧蒸気のものより2倍の速度で動きますが、2倍の蒸気消費をします"
+				"また、これはLV機械と同じ速度です"
+			]
+			id: "29C0B56022435898"
+			tasks: [{
+				id: "5411EADB9F62F9F3"
+				title: "高圧蒸気機械"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2D29B73A1EE36092"
+				"00FFEA26E4911BB4"
+				"4FBCFD2AF8B3F6EE"
+			]
+			description: [
+				"最初の電気の大型機械(なはず)です！"
+				"LV4A(=128EU/t)を維持するのは難しいかもしれませんが、これをできるようにして、MV時代に備えましょう！"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "6110EC6356558EAF"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "05148E83678A3F93"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "596F7EBF6D3ABEE0"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "312898929596A08F"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "4FC35E7679FADA21"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "52ED3677FA76E945"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6110EC6356558EAF"]
+			id: "790342B1AD871A43"
+			size: 1.0d
+			tasks: [{
+				id: "67134C08827C5A72"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1A005EFF16245243"
+				"3CA8A737F007FABD"
+			]
+			description: [
+				"最初のMV回路です！"
+				"新しい回路が出来た時は、基本的に回路作成機を真っ先に作るべきです"
+			]
+			id: "1D4D13C0B7944F56"
+			tasks: [{
+				id: "5F0138063E9FE310"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["493BC3C550B6B943"]
+			id: "00FFEA26E4911BB4"
+			tasks: [{
+				id: "415443EB4FADFF3F"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0249DF47B21D12F2"
+				"02D38870876219FE"
+				"706210568F4A3BD6"
+			]
+			description: ["回路やエネルギーハッチ以外にも、コイルブロックをアップデートすることも時代を進める鍵となります"]
+			id: "2D29B73A1EE36092"
+			tasks: [{
+				count: 16L
+				id: "730A7E74DAC28CC9"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2961D996410568B8"]
+			description: ["インゴットなどを液体にしたり、ゴムを抽出したりできます"]
+			id: "36FF25A3A158EF47"
+			tasks: [{
+				id: "29388EFAD01996B0"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2961D996410568B8"]
+			description: [
+				"用途がとても多い機械です"
+				"どの時代でも重要な役割を果たします"
+			]
+			id: "0249DF47B21D12F2"
+			tasks: [{
+				id: "61E2A2BFAA16E8E4"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["493BC3C550B6B943"]
+			id: "02D38870876219FE"
+			tasks: [{
+				id: "5C00C47056F0B16E"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			id: "493BC3C550B6B943"
+			tasks: [{
+				id: "252791EA9CEA304D"
+				item: "gtceu:nickel_dust"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24447425AC056DC6"]
+			description: [
+				"1つのエネルギーハッチは2Aを受け入れます"
+				"なので、2つのエネルギーハッチを付けることで4Aとなり、1つ上の電圧の1A相当になります"
+				"この仕様がとても重要です"
+			]
+			id: "4FBCFD2AF8B3F6EE"
+			tasks: [{
+				count: 2L
+				id: "60DF39012ABFF600"
+				item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0249DF47B21D12F2"]
+			id: "24447425AC056DC6"
+			tasks: [{
+				id: "486DE7B92A406DA6"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2961D996410568B8"
+				"404E7594C8027E1A"
+			]
+			dependency_requirement: "one_completed"
+			id: "0716AAC0E9B43E4F"
+			tasks: [{
+				id: "5FFFF89648B9B2C1"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"67B0F3D4752BCEC7"
+				"1C01EBA71A4ADF8C"
+			]
+			description: ["のりでベッタベタだぜ！"]
+			id: "3CA8A737F007FABD"
+			tasks: [{
+				id: "0BA52FD7109C6757"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 1.0d
+		}
+		{
+			id: "1C01EBA71A4ADF8C"
+			tasks: [{
+				id: "51F27A4354BEC900"
+				item: "gtceu:silver_ingot"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0249DF47B21D12F2"
+				"383A1F811B5B2BFE"
+			]
+			id: "1A005EFF16245243"
+			tasks: [{
+				id: "63DC54CD82D1F7F4"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2961D996410568B8"]
+			description: ["今まで手で混ぜていたのはどうやっていたのでしょうか..."]
+			id: "0C0F4FF502FC2D16"
+			tasks: [{
+				id: "701D8D0C493C2987"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0716AAC0E9B43E4F"]
+			icon: "gtceu:glue_bucket"
+			id: "67B0F3D4752BCEC7"
+			tasks: [{
+				id: "38BA27BC97A2D507"
+				title: "のり"
+				type: "checkmark"
+			}]
+			title: "ノリ"
+			x: 25.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			description: ["プレート、フォイルなどを効率よく作れるようになります"]
+			id: "76C4D9D4F64A1523"
+			tasks: [{
+				id: "31FCE9BB710B7E71"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			description: [
+				"ワイヤをプレートからつくるのはもう終わりです"
+				"今までの悪い効率から解放されました"
+			]
+			id: "367C0EC6826139E1"
+			tasks: [{
+				id: "6C25A369FB93605C"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			description: ["ゴムを安く作れたりします"]
+			id: "5C5F45816F3AB9E7"
+			tasks: [{
+				id: "3EA5DF6A1B4BA22B"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			description: ["なまし銅やアイテムのリサイクルができます"]
+			id: "40CB7A4F23735FB9"
+			tasks: [{
+				id: "5BBBCDEBDFBD394D"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			description: ["主にバッテリーを作ることができます"]
+			id: "724860194CD153A8"
+			tasks: [{
+				id: "314C5DCC9DB23AE5"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			description: ["設定によって異なりますが、インゴット1個から棒2本または棒1本と小さな粉2つを作成できます"]
+			hide_dependency_lines: false
+			id: "2F799E10E0750DBC"
+			tasks: [{
+				id: "6230B304156D875B"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5EEF5D5C658DDBD9"]
+			id: "2961D996410568B8"
+			tasks: [{
+				id: "369D128B55B9554D"
+				title: "必須機械"
+				type: "checkmark"
+			}]
+			title: "必須機械 in LV"
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EEF5D5C658DDBD9"]
+			id: "65224FBD61EE55FD"
+			tasks: [{
+				id: "67C7D591FC616B5B"
+				title: "便利機械 in LV"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36FF25A3A158EF47"]
+			icon: "gtceu:tin_alloy_bucket"
+			id: "706210568F4A3BD6"
+			tasks: [{
+				id: "04121D2830485209"
+				title: "錫合金"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2AE3711C77DFDEF4"
+				"48B12D3D3DFF849E"
+			]
+			id: "38F44C328637B8F4"
+			tasks: [{
+				id: "735C849946AD58BE"
+				item: "gtceu:battery_alloy_ingot"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 6.5d
+		}
+		{
+			id: "2AE3711C77DFDEF4"
+			tasks: [{
+				id: "3B1D4D28E5EC1DE5"
+				item: "gtceu:lead_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 7.5d
+		}
+		{
+			id: "48B12D3D3DFF849E"
+			tasks: [{
+				id: "6366594F9ED6FF8C"
+				item: "gtceu:antimony_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"724860194CD153A8"
+				"38F44C328637B8F4"
+			]
+			description: [
+				"ナトリウム、カドミウム、リチウムバッテリーがありますが、基本的にリチウムバッテリーがおすすめです"
+				"どうしてもリチウムがないならナトリウム電池でもいいかもしれません"
+				"グレッグテックのバッテリーの仕組みとして、バッテリーバッファーにバッテリーが入っている本数だけAを出して、その2倍のAを受け入れることができます"
+			]
+			id: "37FE0C4EAA01C531"
+			tasks: [{
+				id: "1AEC13F7AEE46279"
+				item: "gtceu:lv_battery_hull"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			description: ["レッドストーンをもう振りかける必要はありません！"]
+			id: "0E82C572EDBE495C"
+			tasks: [{
+				id: "1CA193AD8E912C67"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E86AF146A859390"]
+			description: [
+				"これを使うことでインゴット:プレートの比が2:1から3:2になります"
+				"お得だね"
+			]
+			id: "5930F8F95C64F1A3"
+			tasks: [{
+				id: "2C9064A8613195AE"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "プレートのコストが高い？"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5EEF5D5C658DDBD9"]
+			description: [
+				"一部の資源は鉱石処理の副産物からしか入手できないことがあります"
+				"全ての副産物のパターンに対応できるようにしましょう"
+			]
+			id: "404E7594C8027E1A"
+			tasks: [{
+				id: "4FAFB2462FC84A71"
+				title: "鉱石処理"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["404E7594C8027E1A"]
+			description: [
+				"クエストの便宜上ありますが副産物を生み出さないゴミなので作らないでください"
+				"&cHV以上の粉砕機から副産物が解禁されます&r"
+			]
+			id: "7D2E83F88BB384EC"
+			tasks: [{
+				id: "015DB0C96496F8AB"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["404E7594C8027E1A"]
+			description: ["遠心分離機とよく間違えられる機械"]
+			id: "66ECA15EF3892C9F"
+			tasks: [{
+				id: "154D9B33922B4619"
+				item: "gtceu:lv_thermal_centrifuge"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["404E7594C8027E1A"]
+			description: ["使い道は少ないですが、有用な素材を落とすものもあります"]
+			id: "51029E8338286269"
+			size: 0.75d
+			tasks: [{
+				id: "30F1FD129FCE9DAD"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["404E7594C8027E1A"]
+			id: "66EAC77F1AFC5699"
+			tasks: [{
+				id: "3563AB3CF90180D4"
+				item: "gtceu:lv_ore_washer"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["404E7594C8027E1A"]
+			description: ["使い道がとても少ないので作らなくてもいいです"]
+			id: "64D03BFB4544B0B5"
+			size: 0.75d
+			tasks: [{
+				id: "55CB1B252CD73FB6"
+				item: "gtceu:lv_electromagnetic_separator"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["404E7594C8027E1A"]
+			id: "0446DB9BC0A25D50"
+			tasks: [{
+				id: "42334E2A2B8B9B35"
+				item: "gtceu:lv_electric_furnace"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1D4D13C0B7944F56"
+				"0E9F8260904191CD"
+			]
+			description: [
+				"あなたの努力がついに報われ始めました"
+				"次の世代の回路を使って回路を安く作ることができません"
+				"が、今の世代の回路が少し安くなります"
+			]
+			id: "253ACEF8E9ECC34B"
+			tasks: [{
+				id: "72F9A9DC5C3D2652"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E7D39A282E9E398"]
+			id: "5EEF5D5C658DDBD9"
+			size: 1.5d
+			tasks: [
+				{
+					id: "33E66B0E02AF4451"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "27F45D573BF0518E"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "0CFB775168ED1675"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "6D38041B8A4EACB4"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "241741ED92238DD8"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in LV"
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1202EEEC0A157123"
+				"02CB9DBDB9AF11AE"
+				"5EEF5D5C658DDBD9"
+			]
+			id: "0E9F8260904191CD"
+			tasks: [{
+				id: "51C089D263D48455"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			id: "02CB9DBDB9AF11AE"
+			tasks: [{
+				id: "0949D6F7DD711D45"
+				item: "gtceu:quartzite_gem"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			id: "4F3599A2902C0100"
+			tasks: [{
+				id: "3EA0E6829F461DF7"
+				item: "gtceu:zinc_dust"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4F3599A2902C0100"]
+			id: "1202EEEC0A157123"
+			tasks: [{
+				id: "72F6402E08D1E650"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1D4D13C0B7944F56"
+				"790342B1AD871A43"
+			]
+			description: [
+				"EBFを手に入れ、MV時代に突入することができるようになりました"
+				"MV時代ではポリエチレンの作成やステンレスの精錬などが主な目標です"
+			]
+			id: "3DF0B9E57275BCDF"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "45E87FBF36EDD9DC"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "MV時代"
+			x: 26.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36FF25A3A158EF47"]
+			description: [
+				"抽出機で作成した液体を成型することで、素材を効率よく作れます！"
+				"&a&n&o&l押出機とかいうLV時代のゴミは決して作らないでください&r&r&r&r"
+			]
+			id: "1BC0D3FBC6E433AF"
+			tasks: [{
+				id: "0C134B5DA3A109FB"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6110EC6356558EAF"
+				"2F1670E18689CFD3"
+			]
+			description: ["精錬がとても長いですが、回路を安く作るためにはこれが必須です"]
+			id: "1726ADE8758EA5B8"
+			tasks: [{
+				id: "22111F571A22DB41"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			id: "2F1670E18689CFD3"
+			tasks: [{
+				id: "3B133C8FE2B11E7A"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1726ADE8758EA5B8"
+				"7295E52203A15FB4"
+			]
+			id: "5B262CC120034CEE"
+			tasks: [{
+				id: "5B4A7090A248B21A"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2B8AD8DE8E39881B"
+				"480F94D40ED893FC"
+				"07B14E6422B03CA2"
+			]
+			id: "04DAA408773FBBF2"
+			tasks: [{
+				id: "6D456373235E1106"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"066E2E018D81B114"
+				"04245D6F83D54B8E"
+				"14BE55AF29E977C7"
+			]
+			description: ["最初のHV回路です！"]
+			id: "302D8926930611EF"
+			tasks: [{
+				id: "1638B38B17F3E85F"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"67DCA7E9077EF1EC"
+				"62E7F041F702F02C"
+			]
+			id: "066E2E018D81B114"
+			tasks: [{
+				id: "70A6545ABFB1AE83"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"253ACEF8E9ECC34B"
+				"7D0B85C11354CDEA"
+			]
+			description: ["LV回路が安くなって帰って来た！"]
+			id: "67DCA7E9077EF1EC"
+			tasks: [{
+				id: "1B302F83F54AA73A"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3DF0B9E57275BCDF"]
+			id: "47EC794EE467BB29"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5B7C7AD64A46423F"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "2C9C896A82172DF4"
+					item: "gtceu:mv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "76332E8561D99DCB"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "5B5E30D79638D44F"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "699C5F4CEE9A84B3"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in MV"
+			x: 27.0d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"79D99B7512B4B012"
+				"1BCB061F31C971C8"
+			]
+			description: ["ウェハーのカットなどに使います"]
+			id: "7295E52203A15FB4"
+			tasks: [{
+				id: "763C798E67658AA9"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["404E7594C8027E1A"]
+			id: "192B7481E45E78DD"
+			tasks: [{
+				id: "48470E6237EF55C0"
+				item: "gtceu:lv_sifter"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"793E0DB5A2CC6105"
+				"6C523C28541EA530"
+				"5B262CC120034CEE"
+			]
+			id: "7D0B85C11354CDEA"
+			tasks: [{
+				id: "2237220E1C9D83D1"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 12.5d
+		}
+		{
+			id: "793E0DB5A2CC6105"
+			tasks: [{
+				id: "3BB7B3051FD6FA54"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"445DB7295FD867B9"
+				"1BCB061F31C971C8"
+			]
+			description: ["ウェハーを加工することができる機械です"]
+			id: "6C523C28541EA530"
+			tasks: [{
+				id: "20141C26DD437B04"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"48B12D3D3DFF849E"
+				"2AE3711C77DFDEF4"
+			]
+			description: ["錫を節約したいあなたに！"]
+			icon: "gtceu:soldering_alloy_bucket"
+			id: "70EA52FF87FF8770"
+			tasks: [{
+				id: "660F73CA17DEC41F"
+				title: "はんだ合金"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 7.0d
+		}
+		{
+			id: "62E7F041F702F02C"
+			tasks: [{
+				id: "7DD4D4BF35528073"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 14.5d
+		}
+		{
+			icon: "gtceu:lubricant_bucket"
+			id: "02469C9B636AE083"
+			size: 0.75d
+			tasks: [{
+				id: "0406247585120B25"
+				title: "潤滑油"
+				type: "checkmark"
+			}]
+			title: "潤滑剤"
+			x: 25.0d
+			y: 8.5d
+		}
+		{
+			icon: "gtceu:distilled_water_bucket"
+			id: "445B60AC8806DC28"
+			size: 0.75d
+			tasks: [{
+				id: "5B81EE0D28AB18C4"
+				title: "蒸留水"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"65ABD8E8E731E2E1"
+				"7A087FE3599DD3D2"
+			]
+			id: "552FC701F536DAA1"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "5A5FDC52DF2B52C5"
+				item: { Count: 16, id: "gtceu:kanthal_coil_block" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1BCB061F31C971C8"]
+			description: ["MV時代に冷却機は作ることができないので、これを使ってアチアチのインゴットを冷ましましょう"]
+			id: "073FBE88D6295383"
+			tasks: [{
+				id: "64B95B56A6C1A94E"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["45EBFF283D3A3460"]
+			id: "71EEB89B42414403"
+			tasks: [{
+				id: "51346A9AE30A4559"
+				item: "gtceu:hot_kanthal_ingot"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"073FBE88D6295383"
+				"71EEB89B42414403"
+			]
+			id: "65ABD8E8E731E2E1"
+			tasks: [{
+				id: "5E149E6D7494BB81"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1BCB061F31C971C8"]
+			id: "7A087FE3599DD3D2"
+			tasks: [{
+				id: "392D9C323A68E3BA"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["62E7F041F702F02C"]
+			id: "3A6D0889CE787851"
+			tasks: [{
+				id: "2B58F5F91B2FA319"
+				item: "gtceu:electrum_ingot"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1BCB061F31C971C8"]
+			id: "2B8AD8DE8E39881B"
+			tasks: [{
+				id: "1701FCC55315A2C1"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"6B56687D5B1BF005"
+				"480F94D40ED893FC"
+				"2B8AD8DE8E39881B"
+			]
+			id: "79D99B7512B4B012"
+			tasks: [{
+				id: "7C5AC167C7A2695D"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 10.0d
+		}
+		{
+			id: "6B56687D5B1BF005"
+			tasks: [{
+				id: "1B882C0CC6876E45"
+				item: "gtceu:vanadium_dust"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 9.0d
+		}
+		{
+			id: "480F94D40ED893FC"
+			tasks: [{
+				id: "05E3B2A5D294085C"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"0FB6A4C4E5896612"
+				"3A6D0889CE787851"
+			]
+			id: "445DB7295FD867B9"
+			tasks: [{
+				id: "470D3FB53A22F9A5"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 12.5d
+		}
+		{
+			id: "0FB6A4C4E5896612"
+			tasks: [{
+				id: "3A976BF87E514B3E"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["302D8926930611EF"]
+			id: "624B93A747D24F26"
+			tasks: [{
+				id: "67AEDFD6073535E8"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["47EC794EE467BB29"]
+			id: "1BCB061F31C971C8"
+			tasks: [{
+				id: "0D60E730DFC128F2"
+				title: "必須機械 in MV"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 10.5d
+		}
+		{
+			id: "18B95C86D81C432F"
+			tasks: [{
+				id: "4DFBDF0C4734D06C"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"5B262CC120034CEE"
+				"18B95C86D81C432F"
+			]
+			id: "04245D6F83D54B8E"
+			tasks: [{
+				id: "5DEB44B7F11DC4B4"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["552FC701F536DAA1"]
+			id: "2C582DC4EEE7A624"
+			tasks: [{
+				id: "42FBE47AB57D5513"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["40CB7A4F23735FB9"]
+			id: "1E2E706EBDBBCFCD"
+			tasks: [{
+				id: "73A28D558098871A"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2C582DC4EEE7A624"
+				"531E669033460006"
+			]
+			id: "14BE55AF29E977C7"
+			tasks: [{
+				id: "0CEE4AD08A57EAC4"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2B8AD8DE8E39881B"]
+			id: "45EBFF283D3A3460"
+			tasks: [{
+				id: "44BD8E38C3EB1010"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5E7B05D9CF1F1BE4"]
+			description: [
+				"重要な資材です"
+				"パッシブにしてもいいかもしれません"
+			]
+			icon: "gtceu:polyethylene_bucket"
+			id: "531E669033460006"
+			tasks: [{
+				id: "581085A407D8DB43"
+				title: "ポリエチレン"
+				type: "checkmark"
+			}]
+			x: 19.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"4340DD244F64ECF8"
+				"3007439959729821"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"エチレンには大まかに2種類の入手方法があります"
+				"一つはエタノールから合成するルート、もう一つは原油処理をするルートです"
+			]
+			id: "5E7B05D9CF1F1BE4"
+			tasks: [{
+				id: "79CC02D8D120CCA5"
+				title: "エチレン"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3FA387BC41612E0C"]
+			id: "4340DD244F64ECF8"
+			tasks: [{
+				id: "6B19FB3FDB9D8DFE"
+				item: "gtceu:mv_chemical_reactor"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3FA387BC41612E0C"]
+			description: ["プレートからレンズを作ることができます"]
+			id: "75C357480F845247"
+			tasks: [{
+				id: "7C9638E00068742C"
+				item: "gtceu:mv_lathe"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3FA387BC41612E0C"]
+			description: ["インゴットからそのままパーツを作ることができます"]
+			id: "1AB2D5FF1E142E1E"
+			tasks: [{
+				id: "5355222AB9313BC1"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3FA387BC41612E0C"]
+			description: [
+				"MV時代で原油処理をするのに必須です"
+				"原油からはエネルギー源の他に様々な資源も入手できます"
+			]
+			id: "3007439959729821"
+			tasks: [{
+				id: "411D17FADE3F97A4"
+				item: "gtceu:mv_distillery"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["47EC794EE467BB29"]
+			id: "3FA387BC41612E0C"
+			tasks: [{
+				id: "480386DE5A60B7A9"
+				title: "便利機械 in MV"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3FA387BC41612E0C"]
+			description: [
+				"アルミニウムに困っていませんか？"
+				"もしそうなら粘土の電解でアルミニウムをゲットできます"
+			]
+			id: "0555C013D1843B3E"
+			tasks: [{
+				id: "090AC7BDD085D21F"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"302D8926930611EF"
+				"04DAA408773FBBF2"
+			]
+			description: [
+				"コイルをアップグレードし、回路を作ったのでHV時代に入ることができます！"
+				"HV時代では、冷却機や蒸留塔、LCRなどの大型機械、クリーンルームなどが主な目標です"
+			]
+			id: "4F7C04BA777C0805"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "55A0AE50A0C88B8F"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			title: "HV時代"
+			x: 20.5d
+			y: 10.5d
+		}
+		{
+			id: "07B14E6422B03CA2"
+			tasks: [{
+				id: "31798A673C6B0D48"
+				item: "gtceu:manganese_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F7C04BA777C0805"]
+			id: "3DD829C759BBA1F7"
+			size: 1.5d
+			tasks: [
+				{
+					id: "28014A87F97DF652"
+					item: "gtceu:hv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "1078B012CA4476EF"
+					item: "gtceu:hv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "7D4C5758A7A6813F"
+					item: "gtceu:hv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "015D73253683D490"
+					item: "gtceu:hv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "04E970E4B54E6388"
+					item: "gtceu:hv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in HV"
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3DD829C759BBA1F7"]
+			description: [
+				"クリーンルームはいくつかのレシピで必要です"
+				"将来的には大型機械もこの中に入れることになるので、大きいサイズで最初から作るのもありかもしれません"
+			]
+			icon: "gtceu:cleanroom"
+			id: "556A6E3E66066843"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "72CB4B323084BD4E"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					id: "4EC039121574C5BA"
+					item: "gtceu:cleanroom_glass"
+					type: "item"
+				}
+				{
+					id: "07B125A5A282BF2C"
+					item: "gtceu:filter_casing"
+					type: "item"
+				}
+				{
+					id: "71508AE83E246A31"
+					item: "gtceu:plascrete"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["67C8CFA917519FB3"]
+			description: ["アチアチの金属を冷ますのに使います"]
+			id: "43439BD1005B4D57"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "21BDC87161E6AC8D"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["531E669033460006"]
+			id: "671CE10B38AD3DFD"
+			tasks: [{
+				id: "6B0EC9AF4A383552"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"624B93A747D24F26"
+				"09B71F191AEE0165"
+			]
+			id: "7A9A80BC7DF00BDC"
+			tasks: [{
+				id: "526F14F0DCCE8E85"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"624B93A747D24F26"
+				"671CE10B38AD3DFD"
+				"692FCCDD0C045A9C"
+			]
+			id: "19885DCDBC9FEDB6"
+			tasks: [{
+				id: "773FEECA0A140F1E"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"671CE10B38AD3DFD"
+				"624B93A747D24F26"
+				"692FCCDD0C045A9C"
+			]
+			id: "512032591AAC05D3"
+			tasks: [{
+				id: "692C3D01675D7A5E"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["59DDBF2DD2D0DE0C"]
+			id: "21E1CC9C8396690A"
+			tasks: [{
+				id: "355AA6E64CDC5700"
+				item: "gtceu:cyan_glass_lens"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["21E1CC9C8396690A"]
+			id: "09B71F191AEE0165"
+			tasks: [{
+				id: "67129BFB26A69FCA"
+				item: "gtceu:simple_soc_wafer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["655BDB067ACDEDCF"]
+			description: ["ガラスレンズを染色できます"]
+			id: "59DDBF2DD2D0DE0C"
+			tasks: [{
+				id: "556B300C65B8AC5C"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5EFE37B30E07BFCA"]
+			id: "692FCCDD0C045A9C"
+			tasks: [{
+				id: "7595B8B93719F742"
+				item: "gtceu:cpu_wafer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["64C38AC4B913ABC1"]
+			description: [
+				"SMDを作れるようになりました！"
+				"これでさらに回路が安くなります！"
+			]
+			id: "4EDC08A77C7BF5D9"
+			tasks: [{
+				id: "4ABF811EAC0A1BDB"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["512032591AAC05D3"]
+			id: "51F0B6D762E5CE7F"
+			tasks: [{
+				id: "4D917C034BBE5B39"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"51F0B6D762E5CE7F"
+				"556A6E3E66066843"
+				"7A8D9DD564FD2CFD"
+			]
+			description: ["最初のEV回路です！"]
+			id: "67C8CFA917519FB3"
+			tasks: [{
+				id: "76A0CF048E4D994B"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6C6CAAD24E33FC56"
+				"4EDC08A77C7BF5D9"
+			]
+			id: "040B8D75CE503826"
+			tasks: [{
+				id: "4C805D13D77C883E"
+				item: "gtceu:smd_transistor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6C6CAAD24E33FC56"
+				"4EDC08A77C7BF5D9"
+			]
+			id: "0B1471C52C6768F2"
+			tasks: [{
+				id: "0D3C0423D396A61F"
+				item: "gtceu:smd_resistor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6C6CAAD24E33FC56"
+				"4EDC08A77C7BF5D9"
+			]
+			id: "6234D9B254432C45"
+			tasks: [{
+				id: "725D821DFC26F0C4"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2249F77FD45365B9"
+				"4EDC08A77C7BF5D9"
+			]
+			id: "57373CBE9DD194E7"
+			tasks: [{
+				id: "4C263517DA2D73EC"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2A252576DB64D25E"
+				"4EDC08A77C7BF5D9"
+			]
+			id: "411BB0328A9ADA0A"
+			tasks: [{
+				id: "73A82AC5759D15A5"
+				item: "gtceu:smd_inductor"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			id: "2249F77FD45365B9"
+			tasks: [{
+				id: "40E3CCD0F740BB12"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			id: "2A252576DB64D25E"
+			tasks: [{
+				id: "0F79EAA327D16E9C"
+				item: "gtceu:nickel_zinc_ferrite_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:tantalum_ingot"
+			id: "6C6CAAD24E33FC56"
+			tasks: [{
+				id: "3ACE11151BF5A37F"
+				title: "タンタル"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			id: "4D4279ABF429C666"
+			tasks: [{
+				id: "14C64C3DCC8C1D37"
+				item: "gtceu:electrotine_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4D4279ABF429C666"]
+			id: "7A8D9DD564FD2CFD"
+			tasks: [{
+				id: "1CB5B1256B42D131"
+				item: "gtceu:blue_alloy_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43439BD1005B4D57"]
+			id: "77B27784A1D5B83D"
+			tasks: [{
+				id: "5985039CAB2CFA77"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			id: "599202F5C9BCBC51"
+			tasks: [{
+				id: "1AADF13E8244A93C"
+				item: "gtceu:phosphorus_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["599202F5C9BCBC51"]
+			id: "74682797F85F1E87"
+			tasks: [{
+				id: "40A65E579EA88812"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"74682797F85F1E87"
+				"7C70CFE32FED6EA3"
+				"3F6D1F976F1309F9"
+			]
+			description: ["これからじゃないと作れない素材以外にも、今までのウェハーよりも4倍の素材が作成できます！"]
+			id: "71C3983F28D7192A"
+			tasks: [{
+				id: "0319E079516C1335"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["655BDB067ACDEDCF"]
+			id: "3F6D1F976F1309F9"
+			tasks: [{
+				id: "243C20A630FBC3C5"
+				item: "gtceu:hv_laser_engraver"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"64C38AC4B913ABC1"
+				"560423F7BA1964A6"
+			]
+			id: "7C70CFE32FED6EA3"
+			tasks: [{
+				id: "05B293B12168A8CE"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3DD829C759BBA1F7"]
+			id: "64C38AC4B913ABC1"
+			tasks: [{
+				id: "4C89C49D9569065F"
+				title: "必須機械 in HV"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["01173B3B88D3A82E"]
+			description: [
+				"LCRはこれでしかできないレシピもありますが、それ以上にパーフェクトオーバークロック(POC)が強力です"
+				"通常、一個上の電圧で作業をさせるとき、4倍の電力消費で2倍の速度ですが、POCの場合は4倍の電力消費で4倍の速度です！"
+			]
+			id: "67512D16EB27C474"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "488BE2B5FBA63D99"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E89FF054E93F3F2"]
+			icon: "gtceu:polytetrafluoroethylene_bucket"
+			id: "01173B3B88D3A82E"
+			tasks: [{
+				id: "43AB32174A2B9E38"
+				title: "ポリテトラフルオロエチレン"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["655BDB067ACDEDCF"]
+			id: "0E89FF054E93F3F2"
+			tasks: [{
+				id: "3439AD335C434870"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3DD829C759BBA1F7"]
+			id: "655BDB067ACDEDCF"
+			tasks: [{
+				id: "695C2A4B9753751C"
+				title: "便利機械 in HV"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"12FFD220B548D19A"
+				"5B262CC120034CEE"
+			]
+			id: "687F5018C4BBEC9F"
+			tasks: [{
+				id: "575C2ED0FF2D8872"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.5d
+		}
+		{
+			id: "12FFD220B548D19A"
+			tasks: [{
+				id: "371B95A449B2A1DE"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"687F5018C4BBEC9F"
+				"7A087FE3599DD3D2"
+			]
+			id: "1BD6864F2FD8C96A"
+			tasks: [{
+				id: "7876C277934CAE2D"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C70CFE32FED6EA3"]
+			id: "39555B83412C3C00"
+			tasks: [{
+				id: "082C59E577407C15"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"39555B83412C3C00"
+				"4EDC08A77C7BF5D9"
+			]
+			id: "55184F7C0B0A9567"
+			tasks: [{
+				id: "4FB6C479949E1683"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["33ECFC1C945E90A7"]
+			id: "560423F7BA1964A6"
+			tasks: [{
+				id: "1D3EF5E7A9F555D8"
+				item: "gtceu:red_steel_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			id: "33ECFC1C945E90A7"
+			tasks: [{
+				id: "5F157387475C0829"
+				item: "gtceu:black_steel_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"67C8CFA917519FB3"
+				"77B27784A1D5B83D"
+			]
+			description: [
+				"クリーンルームでEV回路を作成し、チタニウムを冷却できるようになったので、ついにEV時代に入ることが出来ます！"
+				"タングステンを入手することくらいしか大きな目標は無く、エポキシを作ったりしてインフラを整える時代です"
+			]
+			id: "135FD862C9D0108D"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "2D15246B47EAAE2C"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			title: "EV時代"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"402D853A529EC227"
+				"04B98C7CF9585A09"
+				"71BE791F2089FE28"
+			]
+			id: "3104A45DE0618FAA"
+			tasks: [{
+				id: "3AED0F1534D18D2B"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"67C8CFA917519FB3"
+				"310E058020D8BDC8"
+			]
+			id: "26087D1B5E33E20A"
+			tasks: [{
+				id: "477BE8B9E7544A1A"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.5d
+		}
+		{
+			id: "5EFE37B30E07BFCA"
+			tasks: [{
+				id: "69A5CF46EB3F3BA7"
+				item: "gtceu:diamond_lens"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26087D1B5E33E20A"]
+			description: ["最初のIV回路です！"]
+			id: "0958E992362F431C"
+			tasks: [{
+				id: "70751AD4BAE0839B"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3DD829C759BBA1F7"
+				"35E7F61071E872E6"
+			]
+			id: "310E058020D8BDC8"
+			tasks: [{
+				id: "12BA4578F0F270E6"
+				item: "gtceu:hv_emitter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"76DF9DCC17D1E466"
+				"437D2CDACA14A1E1"
+			]
+			id: "35E7F61071E872E6"
+			tasks: [{
+				id: "6A561F8A7FB2B491"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"0958E992362F431C"
+				"3104A45DE0618FAA"
+			]
+			description: [
+				"タングステンスチールを手に入れ、ついにIV時代に入ることが出来ます！"
+				"ここからグレッグテックが本気を出してきます"
+				"主な目標は白金族処理とアセンブリーラインの作成です"
+			]
+			id: "170393EE34E4F697"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "57D50155EF84F108"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			title: "IV時代"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["655BDB067ACDEDCF"]
+			id: "60F4AEA94306E25C"
+			tasks: [{
+				id: "00F5E4CD782BD513"
+				item: "gtceu:hv_macerator"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.5d
+		}
+		{
+			id: "76DF9DCC17D1E466"
+			tasks: [{
+				id: "1F399CB323493110"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			id: "437D2CDACA14A1E1"
+			tasks: [{
+				id: "5F539367D4C7E32D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["55184F7C0B0A9567"]
+			id: "402D853A529EC227"
+			tasks: [{
+				id: "2F7947B1D5C20114"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["67C8CFA917519FB3"]
+			description: ["蒸留塔を使って処理をすることによって、今まで1種類しか入手できなかったものが、100%の資源が入手できます"]
+			id: "154A4325D84F6F33"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "30502AAC7B0A9148"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0FFCC789C967097E"]
+			id: "04B98C7CF9585A09"
+			tasks: [{
+				id: "021CEC6FF0276C47"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2DCAD2C0C3CB6B02"
+				"1FF8D94D3FB7FF15"
+				"638C5BD367E42A43"
+			]
+			id: "71BE791F2089FE28"
+			tasks: [{
+				id: "13A6B92F991B8608"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["655BDB067ACDEDCF"]
+			id: "07819954EEDD3549"
+			tasks: [{
+				id: "503C0B44130DADF2"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"07819954EEDD3549"
+				"48E94164A4813D48"
+				"142F059AC34D3B65"
+			]
+			dependency_requirement: "all_started"
+			id: "531439FEC72DC6F7"
+			tasks: [{
+				id: "2373C03DDEC028BF"
+				item: "gtceu:ender_pearl_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["531439FEC72DC6F7"]
+			description: [
+				"芸術は爆発だ！"
+				"エンダーパールなどを作ることができます"
+			]
+			id: "0ED954305477951E"
+			tasks: [{
+				id: "6679B3D32C881B91"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.5d
+		}
+		{
+			id: "588D755F32A4276E"
+			tasks: [{
+				id: "5E3CE0669A2F3574"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0E89FF054E93F3F2"]
+			description: ["爆縮の効率がいいので一番おすすめです"]
+			id: "403526011280110F"
+			tasks: [{
+				id: "62C865029D0BBCC1"
+				item: "gtceu:industrial_tnt"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 14.5d
+		}
+		{
+			id: "4EE8A055A2D9EBE5"
+			tasks: [{
+				id: "58EDD27982ABFC48"
+				item: "gtceu:dynamite"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			id: "65A8B747F4EC411E"
+			tasks: [{
+				id: "760A87031023E3E8"
+				item: "gtceu:powderbarrel"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0FFCC789C967097E"]
+			id: "2DCAD2C0C3CB6B02"
+			tasks: [{
+				id: "0773526C456F9634"
+				item: "gtceu:ev_electrolyzer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0FFCC789C967097E"]
+			id: "638C5BD367E42A43"
+			tasks: [{
+				id: "3B2CE82C364F7952"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			id: "1FF8D94D3FB7FF15"
+			tasks: [{
+				id: "7A71CBC8DD17C0A8"
+				item: "gtceu:tungstate_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "5D0118CDD146721B"
+			tasks: [{
+				id: "602571002718198A"
+				item: "gtceu:neodymium_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5D0118CDD146721B"]
+			id: "7BD4B002CEFE9932"
+			tasks: [{
+				id: "5CEB4FCE0F184B1B"
+				item: "gtceu:magnetic_neodymium_rod"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"135FD862C9D0108D"
+				"7BD4B002CEFE9932"
+			]
+			id: "498B8BA935F035A4"
+			size: 1.5d
+			tasks: [
+				{
+					id: "26CF75BFE872CA39"
+					item: "gtceu:ev_electric_motor"
+					type: "item"
+				}
+				{
+					id: "3A856852A8A23799"
+					item: "gtceu:ev_electric_pump"
+					type: "item"
+				}
+				{
+					id: "2F94889C8A7E3150"
+					item: "gtceu:ev_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "58BE6C9569F67B33"
+					item: "gtceu:ev_electric_piston"
+					type: "item"
+				}
+				{
+					id: "01F0F01401E6497B"
+					item: "gtceu:ev_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in EV"
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["498B8BA935F035A4"]
+			id: "0FFCC789C967097E"
+			tasks: [{
+				id: "65F64718DD5D009C"
+				title: "必須機械 in EV"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			id: "48E94164A4813D48"
+			tasks: [{
+				id: "2BDC2C7CF1F260C9"
+				item: "gtceu:beryllium_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.5d
+		}
+		{
+			id: "142F059AC34D3B65"
+			tasks: [{
+				id: "13B087AEF5D23DD3"
+				item: "gtceu:potassium_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["65224FBD61EE55FD"]
+			id: "1D56C8392B43A7C3"
+			tasks: [{
+				id: "0A63CC26E6F45225"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D56C8392B43A7C3"]
+			icon: "gtceu:air_bucket"
+			id: "2D5B605FD44DBD85"
+			tasks: [{
+				id: "631D59FEA28814CD"
+				title: "空気"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0958E992362F431C"
+				"47FBCBE2ED365EAD"
+			]
+			id: "2EF03DFF18C1C99A"
+			tasks: [{
+				id: "3DAFA71E5C8A16EB"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["03BAC55B929D28F1"]
+			id: "1C5A396B774B5453"
+			tasks: [{
+				id: "75669A87A01B0706"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"1D65C5CC53904E0E"
+				"24BA6B728803F8D1"
+				"2F321B8F3F998C33"
+			]
+			dependency_requirement: "one_started"
+			icon: "gtceu:radon_bucket"
+			id: "03BAC55B929D28F1"
+			tasks: [{
+				id: "346117AE53940F08"
+				title: "ラドン"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			id: "1D65C5CC53904E0E"
+			tasks: [{
+				id: "4B1B40D707786A82"
+				item: "gtceu:uranium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			id: "24BA6B728803F8D1"
+			tasks: [{
+				id: "5A5E9AD2207BC610"
+				item: "gtceu:plutonium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["582773397C8358F1"]
+			id: "2F321B8F3F998C33"
+			tasks: [{
+				id: "7964E0E275B344B6"
+				item: "gtceu:liquid_ender_air_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1C5A396B774B5453"
+				"498B8BA935F035A4"
+			]
+			id: "47FBCBE2ED365EAD"
+			tasks: [{
+				id: "517A6EB0BDCD2B35"
+				item: "gtceu:ev_emitter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			id: "19229B026FEFA732"
+			tasks: [{
+				id: "41CB6257141EF314"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"19229B026FEFA732"
+				"72FD9B600081F169"
+			]
+			id: "414F28CD5D93C560"
+			tasks: [{
+				id: "1DFFC95FAFA384EC"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"32AAEFD6479FEAB9"
+				"4909561D3ADA8487"
+			]
+			id: "582773397C8358F1"
+			tasks: [{
+				id: "37E1AE5FFCFA3263"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1CE8C974A3C348B8"]
+			id: "26B6C4AAA1402389"
+			tasks: [{
+				id: "6E8A11C2620CB356"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"13F67F12BC473E83"
+				"1B519024C9DAFAB6"
+			]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:epoxy_bucket"
+			id: "1CE8C974A3C348B8"
+			tasks: [{
+				id: "30BCE446E5D0BF94"
+				title: "エポキシ"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:allyl_chloride_bucket"
+			id: "1B519024C9DAFAB6"
+			tasks: [{
+				id: "1FCA04C8DE1A79A2"
+				title: "塩化アリル"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:glycerol_bucket"
+			id: "13F67F12BC473E83"
+			tasks: [{
+				id: "4DCE05029088452D"
+				title: "グリセリン"
+				type: "checkmark"
+			}]
+			title: "グリセロール"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2EF03DFF18C1C99A"
+				"26B6C4AAA1402389"
+				"414F28CD5D93C560"
+			]
+			id: "2F6FF3EA1D745093"
+			tasks: [{
+				id: "3E65CF7ED9927B1D"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"69BBD0058080BE27"
+				"0FFCC789C967097E"
+			]
+			id: "7FDFA3307FE4ABE3"
+			tasks: [{
+				id: "46E7CE3F69D7FE5D"
+				item: "gtceu:ev_cutter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4B7C7A0544D0A81D"
+				"7FDFA3307FE4ABE3"
+			]
+			id: "32AAEFD6479FEAB9"
+			tasks: [{
+				id: "63235E3361DFB558"
+				item: "gtceu:mpic_wafer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			id: "4B7C7A0544D0A81D"
+			tasks: [{
+				id: "1CDE3E9C75D9B622"
+				item: "gtceu:brown_glass_lens"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0FFCC789C967097E"]
+			id: "4909561D3ADA8487"
+			tasks: [{
+				id: "15005C479A56A8FE"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"1510D4C6DE3FC7CC"
+				"4B772188745AD571"
+			]
+			id: "69BBD0058080BE27"
+			tasks: [{
+				id: "31E9691F8B85FC15"
+				item: "gtceu:ultimet_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			id: "4B772188745AD571"
+			tasks: [{
+				id: "49D33390C00F73AC"
+				item: "gtceu:cobalt_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "1510D4C6DE3FC7CC"
+			tasks: [{
+				id: "4B7AB7C411EAAB87"
+				item: "gtceu:molybdenum_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2F6FF3EA1D745093"]
+			id: "149BD2A56802AD17"
+			tasks: [{
+				id: "7C91BDC3EB3C19D5"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"149BD2A56802AD17"
+				"11FFCAE47540E29B"
+			]
+			id: "3FD30030C591153F"
+			tasks: [{
+				id: "2E3BEB39DB59F9A0"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09E789E8FAD7E783"]
+			id: "11FFCAE47540E29B"
+			tasks: [{
+				id: "412F8A521AAA3DEF"
+				item: "gtceu:nor_memory_wafer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "09E789E8FAD7E783"
+			tasks: [{
+				id: "5F2C7E0B5FD0B290"
+				item: "gtceu:pink_glass_lens"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3FD30030C591153F"]
+			description: ["最初のLuV回路です！"]
+			id: "5D0085847C4845B7"
+			tasks: [{
+				id: "40F92EC68BA27169"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "72FD9B600081F169"
+			tasks: [{
+				id: "43E425E4FBEBD862"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6FBA7D4F4AC720ED"]
+			description: ["新しいコイルですが、RTMのRが高いので最低限の数を作成して、すぐに次のコイルを作成しましょう"]
+			id: "3B8E73CC6C97E17D"
+			tasks: [{
+				id: "70502F33DAD9DB72"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3B8E73CC6C97E17D"
+				"217AC13580189225"
+				"5AC329D113D10096"
+			]
+			id: "6295EA490FFC49EE"
+			tasks: [{
+				id: "7A65721738259783"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71BE791F2089FE28"]
+			description: [
+				"様々な合金を効率よく作ることができます！"
+				"精錬の速度だけでなく冷却の速度も上がっています！"
+			]
+			id: "03F97125A85B589F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2D5EF12169AE1F0A"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["38B7F1C0432E1D2C"]
+			id: "6FBA7D4F4AC720ED"
+			tasks: [{
+				id: "24983BEE3C3CDB35"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0140B574C54F47A8"]
+			id: "38B7F1C0432E1D2C"
+			tasks: [{
+				id: "5A659CB679648E49"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			id: "411C53B6D736F4BA"
+			tasks: [{
+				id: "76B9D531EE04C26F"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			icon: "gtceu:aqua_regia_bucket"
+			id: "5195EEC6D692351C"
+			tasks: [{
+				id: "58ECA68C88F82EBB"
+				title: "王水"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6C22585199F18368"]
+			id: "285559F90DBE4261"
+			tasks: [{
+				id: "6049B49115CEF939"
+				item: "gtceu:platinum_raw_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6C22585199F18368"]
+			id: "1A135320ACB7A0BC"
+			tasks: [{
+				id: "2EC014E9C23EBCB9"
+				item: "gtceu:palladium_raw_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6C22585199F18368"]
+			id: "0140B574C54F47A8"
+			tasks: [{
+				id: "05D451E6E83F38CE"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["285559F90DBE4261"]
+			id: "73FA535204BE2698"
+			tasks: [{
+				id: "3EE6D960A73B0C18"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1A135320ACB7A0BC"]
+			id: "5AC329D113D10096"
+			tasks: [{
+				id: "5B57443FBBB491F6"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6C22585199F18368"]
+			id: "75DD203023A23E96"
+			tasks: [{
+				id: "5771C055AA97C200"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"514C9E47791A3C1C"
+				"6C22585199F18368"
+			]
+			dependency_requirement: "one_started"
+			id: "38C33CD31D530484"
+			tasks: [{
+				id: "236FAA23DD1E27F8"
+				item: "gtceu:platinum_sludge_residue_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0140B574C54F47A8"]
+			icon: "gtceu:rhodium_sulfate_bucket"
+			id: "7CEC78E21CB7487E"
+			tasks: [{
+				id: "329491C4DD118000"
+				title: "硫酸ロジウム"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7CEC78E21CB7487E"]
+			id: "217AC13580189225"
+			tasks: [{
+				id: "4B03A4555CBA697C"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["75DD203023A23E96"]
+			id: "514C9E47791A3C1C"
+			tasks: [{
+				id: "51798BCC9305306E"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["514C9E47791A3C1C"]
+			id: "66564ED617BDC5E6"
+			tasks: [{
+				id: "071E5E476EEDCBDA"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["75DD203023A23E96"]
+			icon: "gtceu:acidic_osmium_solution_bucket"
+			id: "5D7B58FE9E7AD9E2"
+			tasks: [{
+				id: "4D69733AF1FA3F3A"
+				title: "酸性オスミウム溶液"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5D7B58FE9E7AD9E2"]
+			id: "77D56A033BFAE101"
+			tasks: [{
+				id: "2208FC2A513AA0AA"
+				item: "gtceu:osmium_tetroxide_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["66564ED617BDC5E6"]
+			id: "620BC73F0C79A095"
+			tasks: [{
+				id: "5AE47A851DCE1ADF"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["77D56A033BFAE101"]
+			id: "73A44CF1A0B43549"
+			tasks: [{
+				id: "49FAE9C535005B02"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["38C33CD31D530484"]
+			id: "56285DCABCB8B15F"
+			tasks: [{
+				id: "5593BA43F85803D5"
+				item: "gtceu:gold_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"5195EEC6D692351C"
+				"411C53B6D736F4BA"
+				"170393EE34E4F697"
+			]
+			id: "6C22585199F18368"
+			tasks: [{
+				id: "1922E37D40B48581"
+				title: "プラチナ処理"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"770B288348DA529E"
+				"170393EE34E4F697"
+			]
+			id: "73DDFBC482C701E0"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3ED6FEB96001B41F"
+					item: "gtceu:iv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "3B60B42C4886D471"
+					item: "gtceu:iv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "2D353C20C87BAE45"
+					item: "gtceu:iv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "23C4A220AE1CC678"
+					item: "gtceu:iv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "072E747C177116AF"
+					item: "gtceu:iv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in IV"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5D0085847C4845B7"
+				"6295EA490FFC49EE"
+				"63CA229C5A934837"
+				"3EFEE14B0B433EE0"
+			]
+			description: [
+				"アセンブリーラインを手に入れ、ついにLuV時代に入ることができます！"
+				"主な目標は核融合炉です"
+			]
+			id: "091F16F04F95CA90"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "3978CCD575086221"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			title: "LuV時代"
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64D7424C257FC6BC"]
+			id: "770B288348DA529E"
+			tasks: [{
+				id: "6D9E1779B11813B1"
+				item: "gtceu:graphene_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			id: "64D7424C257FC6BC"
+			tasks: [{
+				id: "5459814B8E2A8A14"
+				item: "gtceu:graphite_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"42843D4CD960AA4D"
+				"620BC73F0C79A095"
+				"51DD3360A8A10426"
+			]
+			id: "30083CDDCA7E6E8B"
+			tasks: [{
+				id: "630A9A0F221938EA"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"326745E22524AA9E"
+				"5F52213CAF913DE2"
+			]
+			id: "42843D4CD960AA4D"
+			tasks: [{
+				id: "28B45E64AC8FC72E"
+				item: "gtceu:hpic_wafer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25EC05A0D75FE09D"]
+			description: [
+				"とても貴重な元素です"
+				"そこそこ要求されるのでここの供給は大きくしておきましょう"
+			]
+			id: "326745E22524AA9E"
+			tasks: [{
+				id: "0B50F7CBECDE896D"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"0C0F4FF502FC2D16"
+				"48E5249BF471B291"
+				"490EEAD04F148170"
+			]
+			id: "383A1F811B5B2BFE"
+			tasks: [{
+				id: "6F25877A35ECEE6D"
+				item: "gtceu:small_gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			description: ["閃亜鉛またはボーキサイトの鉱石処理から入手できます"]
+			id: "490EEAD04F148170"
+			tasks: [{
+				id: "7C8D244F8F72D939"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			description: ["鶏冠石の遠心分離をしましょう"]
+			id: "48E5249BF471B291"
+			tasks: [{
+				id: "4948EBB612662579"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6736C189D6A0EA3F"
+				"288CFED7A089B5F5"
+			]
+			id: "5F52213CAF913DE2"
+			tasks: [{
+				id: "6B9600E20D77B42A"
+				item: "gtceu:iv_cutter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			icon: "gtceu:indium_concentrate_bucket"
+			id: "25EC05A0D75FE09D"
+			tasks: [{
+				id: "79CACB79A3F128E6"
+				title: "濃縮インジウム"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5B9C20C72E0864D8"]
+			id: "288CFED7A089B5F5"
+			tasks: [{
+				id: "329399A624D28D7E"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["73DDFBC482C701E0"]
+			description: [
+				"ほぼ全ての大型機械はIV時代で解禁されます！"
+				"大型機械にはどのような利点があるのかというと、まず、エネルギーハッチを付け替えるだけで新しい時代に対応できます"
+				"そして最も重要なのが並列制御ユニットを組み込むことで並列処理ができるようになることです"
+				"普通のオーバークロックでは4倍の電力消費で2倍の速度ですが、並列処理ができる場合、4倍の消費電力で1倍の速度を4つ同時に、つまり4倍速でPOCと同じ速度になります！"
+				"並列が限界を迎えるまでPOCになるのは非常に重要になります"
+			]
+			id: "5177648D683A001F"
+			tasks: [{
+				id: "2089AE87FE6BD42B"
+				title: "マルチブロック！"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6736C189D6A0EA3F"]
+			description: [
+				"発展型SMDを作ることができます！"
+				"これでさらに安く回路を作ることができます！"
+			]
+			id: "51DD3360A8A10426"
+			tasks: [{
+				id: "0E7B07ADF21E888B"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"42843D4CD960AA4D"
+				"54E23AFDE1327F2B"
+				"50ECDE277E634AD6"
+				"6DDEC1A18114D133"
+			]
+			description: [
+				"アセンブリングラインのアイテムインプットバスはULV、つまり1枠で固定です"
+				"また、レシピの順番通りに入れる必要があります"
+				"自動化に挑戦してみましょう！"
+				"また、データというものが別個に必要で、それをデータハッチに入れることでレシピを実行できるようになります"
+			]
+			id: "63CA229C5A934837"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "569E6A926A901E4E"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"73DDFBC482C701E0"
+				"661FF8E1AA45FC6F"
+				"620BC73F0C79A095"
+			]
+			id: "54E23AFDE1327F2B"
+			tasks: [{
+				id: "4A1EE69E25431579"
+				item: "gtceu:iv_emitter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"661FF8E1AA45FC6F"
+				"620BC73F0C79A095"
+			]
+			id: "50ECDE277E634AD6"
+			tasks: [{
+				id: "5F060025FEBB07BB"
+				item: "gtceu:iv_sensor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C98D20768BBA2BA"]
+			id: "661FF8E1AA45FC6F"
+			tasks: [{
+				id: "50C79B07604A0252"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			id: "3C98D20768BBA2BA"
+			tasks: [{
+				id: "381D67CD378568DA"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"54E23AFDE1327F2B"
+				"5D0085847C4845B7"
+			]
+			id: "3C9796F1C4043F15"
+			tasks: [{
+				id: "636E40D98EC4B58B"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2EF03DFF18C1C99A"]
+			id: "1991FE0ED8494C8D"
+			tasks: [{
+				id: "2639937147866CDE"
+				item: "gtceu:soc_wafer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["73DDFBC482C701E0"]
+			id: "6736C189D6A0EA3F"
+			tasks: [{
+				id: "18BF7CE851B8E4B7"
+				title: "必須機械 in IV"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["40CB7A4F23735FB9"]
+			id: "13BCD22088DA9BF9"
+			tasks: [{
+				id: "791DE422E01FCAB6"
+				item: "gtceu:tempered_glass"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:polyvinyl_butyral_bucket"
+			id: "5B9C20C72E0864D8"
+			tasks: [{
+				id: "5A6C5B2BE2A5C9E6"
+				title: "ポリビニルブチラール"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "060BAA0EA0B9DAAA"
+			tasks: [{
+				id: "67D5F5BDCCF9EF8B"
+				item: "gtceu:large_maceration_tower"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "5F35568BAF39D5A3"
+			tasks: [{
+				id: "186DB5EFB6C094D2"
+				item: "gtceu:large_chemical_bath"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "5F2DA30D5376F9E7"
+			tasks: [{
+				id: "4888AEC2701D6666"
+				item: "gtceu:large_centrifuge"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "09DBEF6493703228"
+			tasks: [{
+				id: "227B91E9FBC1CF26"
+				item: "gtceu:large_mixer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "7879182E36766921"
+			tasks: [{
+				id: "30C84996551AA84A"
+				item: "gtceu:large_electrolyzer"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "39F61E32A3D4887F"
+			tasks: [{
+				id: "49EC51B4EBDDAFF5"
+				item: "gtceu:large_electromagnet"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["67C8CFA917519FB3"]
+			description: ["ハブられた悲しい大型機械"]
+			id: "1D2FA1BF34999252"
+			tasks: [{
+				id: "38C33E801E4DFF12"
+				item: "gtceu:large_packer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "751E5C703AD72818"
+			tasks: [{
+				id: "626933F95B9388A1"
+				item: "gtceu:large_assembler"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "009A00C707B71F83"
+			tasks: [{
+				id: "61AF12E459AB7184"
+				item: "gtceu:large_circuit_assembler"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "41FBC2996834BCD0"
+			tasks: [{
+				id: "12D48EB64E8609B5"
+				item: "gtceu:large_arc_smelter"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "279A0572E0398FB9"
+			tasks: [{
+				id: "60DA60C41428F4D2"
+				item: "gtceu:large_engraving_laser"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "13ECEB92996AAC40"
+			tasks: [{
+				id: "05CE6C9FBE954D3F"
+				item: "gtceu:large_sifting_funnel"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "4794240FE8F43F3C"
+			tasks: [{
+				id: "6AD7B1C58952B1E6"
+				item: "gtceu:large_autoclave"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "3C561F30BD3AED31"
+			tasks: [{
+				id: "0A84D24DD9ECD01D"
+				item: "gtceu:large_material_press"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "3DFC6271ED698871"
+			tasks: [{
+				id: "20B374FE7669A3E8"
+				item: "gtceu:large_brewer"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "3A26DDB96868B6DD"
+			tasks: [{
+				id: "769B3CBFE306E58E"
+				item: "gtceu:large_cutter"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "5A3E532E5B7D7EC7"
+			tasks: [{
+				id: "3EC0FF7BB444DB68"
+				item: "gtceu:large_distillery"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "2843AE99FA9F14B6"
+			tasks: [{
+				id: "7A96945BFDB6FF58"
+				item: "gtceu:large_extractor"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "4CB4D643B6453486"
+			tasks: [{
+				id: "026254F5D787306E"
+				item: "gtceu:large_extruder"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "7F0FF64E45BE641D"
+			tasks: [{
+				id: "67CCBA0D63AE0955"
+				item: "gtceu:large_solidifier"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "49C42D95C5364507"
+			tasks: [{
+				id: "42CEF9EB38D60029"
+				item: "gtceu:large_wiremill"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.0d
+		}
+		{
+			icon: "gtceu:polybenzimidazole_bucket"
+			id: "3BDDF547A4A5ED06"
+			tasks: [{
+				id: "63AF7E30E8493F1B"
+				title: "ポリベンズイミダゾール"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"52B3E460F26EEDE6"
+				"3BDDF547A4A5ED06"
+				"51DD3360A8A10426"
+			]
+			id: "45B9427C41E66092"
+			tasks: [{
+				id: "11CAC4A148B44225"
+				item: "gtceu:advanced_smd_transistor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3BDDF547A4A5ED06"
+				"51DD3360A8A10426"
+			]
+			id: "06015070D50A9FDA"
+			tasks: [{
+				id: "0182043526C4022C"
+				item: "gtceu:advanced_smd_resistor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6D75A4BFC06EA700"
+				"3BDDF547A4A5ED06"
+				"51DD3360A8A10426"
+			]
+			id: "06114702FD69F196"
+			tasks: [{
+				id: "7FA6C13B4D119B83"
+				item: "gtceu:advanced_smd_capacitor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"23F1EB5D3DFFDFEF"
+				"3BDDF547A4A5ED06"
+				"51DD3360A8A10426"
+			]
+			id: "2488B3125FDF7174"
+			tasks: [{
+				id: "4B4F65FACCB366EE"
+				item: "gtceu:advanced_smd_diode"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6787BEF0D7AF8024"
+				"3BDDF547A4A5ED06"
+				"51DD3360A8A10426"
+			]
+			id: "0BBD01BFFE53F9DE"
+			tasks: [{
+				id: "0DDC2AE087A3A54A"
+				item: "gtceu:advanced_smd_inductor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B8E73CC6C97E17D"]
+			id: "52B3E460F26EEDE6"
+			tasks: [{
+				id: "7F991839EE840015"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"11E31D2F26292FF9"
+				"52B3E460F26EEDE6"
+			]
+			id: "6D75A4BFC06EA700"
+			tasks: [{
+				id: "7A96E1933C5D1881"
+				item: "gtceu:hsss_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3913D5CC5BA63DE0"]
+			id: "23F1EB5D3DFFDFEF"
+			tasks: [{
+				id: "1B9D3C93A4FAA0DF"
+				item: "gtceu:niobium_titanium_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52B3E460F26EEDE6"]
+			id: "6787BEF0D7AF8024"
+			tasks: [{
+				id: "20980614B0158251"
+				item: "gtceu:hsse_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"51DD3360A8A10426"
+				"52B3E460F26EEDE6"
+			]
+			id: "11E31D2F26292FF9"
+			tasks: [{
+				id: "4BCB274F831B4D0B"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "3913D5CC5BA63DE0"
+			tasks: [{
+				id: "6AE168EA5D61879D"
+				item: "gtceu:niobium_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"439DB64F3210103B"
+				"3C9796F1C4043F15"
+				"7DC4DCBC874C8F8D"
+			]
+			id: "05629F3EB1C91121"
+			tasks: [{
+				id: "26DAA1CBFF51BEEA"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "439DB64F3210103B"
+			tasks: [{
+				id: "2597D5A53DBEFB94"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47649D7ADD72736F"]
+			id: "7DC4DCBC874C8F8D"
+			tasks: [{
+				id: "212AC88582FFB470"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"エポキシとほとんど変わらないコスト！"
+				"やさしいね"
+			]
+			id: "47649D7ADD72736F"
+			tasks: [{
+				id: "71EE39B2509DBA72"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05629F3EB1C91121"]
+			id: "46A45CA8540935F9"
+			tasks: [{
+				id: "625B344B9D17F3B3"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46A45CA8540935F9"]
+			id: "288344AB88FC0B94"
+			tasks: [{
+				id: "77DFB192ED9A898F"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["288344AB88FC0B94"]
+			description: ["最初のZPM回路です！"]
+			id: "733C5BDA2F785756"
+			tasks: [{
+				id: "48958B53A1735F99"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"091F16F04F95CA90"
+				"1D184B76EB05B96D"
+			]
+			id: "6D0EF09B4BCDECAD"
+			size: 1.5d
+			tasks: [
+				{
+					id: "04D2678182D0894F"
+					item: "gtceu:luv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "029954B99B54A433"
+					item: "gtceu:luv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "0DF969628705E27C"
+					item: "gtceu:luv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "176BAAC6FEEF0A05"
+					item: "gtceu:luv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "266814A4267A2D94"
+					item: "gtceu:luv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in LuV"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12EECEEF7E32A9E9"]
+			id: "6DDEC1A18114D133"
+			tasks: [{
+				id: "7598764F8BA849D3"
+				item: "gtceu:data_stick"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			description: ["レアアースからは6種類の金属が入手できます"]
+			id: "5CD4851EB5AB3040"
+			tasks: [{
+				id: "632E9517DBB6A04C"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"515571403AC3D226"
+				"11E31D2F26292FF9"
+			]
+			id: "1D184B76EB05B96D"
+			tasks: [{
+				id: "12D6B2EBC10BCD8A"
+				item: "gtceu:samarium_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CD4851EB5AB3040"]
+			id: "12315E41E502CE1D"
+			tasks: [{
+				id: "0BB6D9C0AD14E857"
+				item: "gtceu:small_lanthanum_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CD4851EB5AB3040"]
+			id: "24CE4D457D5B4617"
+			tasks: [{
+				id: "22C91FF5A7F72BA2"
+				item: "gtceu:small_cadmium_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CD4851EB5AB3040"]
+			id: "2D6ECA39F318F178"
+			tasks: [{
+				id: "064061DAE5EEBFE1"
+				item: "gtceu:small_neodymium_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CD4851EB5AB3040"]
+			id: "05BEFEC40888B1CE"
+			tasks: [{
+				id: "622F5D0EF06DE257"
+				item: "gtceu:small_cerium_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CD4851EB5AB3040"]
+			id: "515571403AC3D226"
+			tasks: [{
+				id: "344F2F201C513365"
+				item: "gtceu:small_samarium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CD4851EB5AB3040"]
+			id: "1265264F013BDBEC"
+			tasks: [{
+				id: "3B0199B6D132F03C"
+				item: "gtceu:small_yttrium_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707C0410A895CCCB"]
+			id: "064EF3DEB12EBFB0"
+			tasks: [{
+				id: "66CEBA8EDA0C83A0"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"11E31D2F26292FF9"
+				"7629494FF3AFB2A4"
+			]
+			id: "1A52B73E6B4B274A"
+			tasks: [{
+				id: "0E236007A5D0FCF4"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"320D33563E9302CC"
+				"1A52B73E6B4B274A"
+			]
+			id: "707C0410A895CCCB"
+			tasks: [{
+				id: "3ED186B5E71F3026"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D0EF09B4BCDECAD"]
+			id: "320D33563E9302CC"
+			tasks: [{
+				id: "13EB829F9C1DD9D2"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"515571403AC3D226"
+				"11E31D2F26292FF9"
+			]
+			id: "34B55DF2EFFEA7EB"
+			tasks: [{
+				id: "3997D43AD4338C13"
+				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1A52B73E6B4B274A"]
+			id: "40F55E5A77B372BC"
+			tasks: [{
+				id: "1CFBE1476712F0FE"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["707C0410A895CCCB"]
+			id: "5BB2FCC3C12402DC"
+			tasks: [{
+				id: "60B570CDE5ADA19E"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BB2FCC3C12402DC"]
+			description: [
+				"耐熱温度9001K"
+				"(EBFなどのコイルとして使えません)"
+			]
+			id: "6CAC61E7296551C3"
+			tasks: [{
+				id: "1FA5C803C2F3505D"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6FBA7D4F4AC720ED"
+				"620BC73F0C79A095"
+			]
+			id: "3EFEE14B0B433EE0"
+			tasks: [{
+				id: "5F87BA6AC47143E4"
+				item: "gtceu:ruridit_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7F3A3AEA7E6BB8AC"
+				"707C0410A895CCCB"
+			]
+			id: "74D41930A4756632"
+			tasks: [{
+				id: "07D95262BC7CDE0F"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25ABE17F401B07C7"]
+			id: "7F3A3AEA7E6BB8AC"
+			tasks: [{
+				id: "522BF4CC560D6873"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3B57BBFA690F485B"
+				"1A52B73E6B4B274A"
+			]
+			description: ["核融合マシン外装は高いのでこれを使って節約しましょう"]
+			id: "55B959899B95C2CC"
+			tasks: [{
+				id: "73934F4C84B54120"
+				item: "gtceu:fusion_glass"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "3B57BBFA690F485B"
+			tasks: [{
+				id: "370C135EB2894314"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6CAC61E7296551C3"
+				"3B57BBFA690F485B"
+			]
+			id: "09D18610B19EB5EE"
+			tasks: [{
+				id: "67544A302D5030C1"
+				item: "gtceu:fusion_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["34B55DF2EFFEA7EB"]
+			description: ["空間発生ってなんやねん"]
+			id: "43EB59D7266823A4"
+			tasks: [{
+				id: "0A1BA0AC069CEAE9"
+				item: "gtceu:iv_field_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "2F4E031532DA8945"
+			tasks: [{
+				id: "2A29820A2B5B8895"
+				item: "gtceu:plutonium_241_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"09D18610B19EB5EE"
+				"2F4E031532DA8945"
+				"43EB59D7266823A4"
+				"40F55E5A77B372BC"
+				"733C5BDA2F785756"
+				"55B959899B95C2CC"
+			]
+			description: [
+				"これでプラズマ発電をアンロックし、電力問題を解決できます！"
+				"核融合炉は少し特殊な電力消費をします"
+				"エネルギーハッチ1個ごとに開始電力が10MEU(MK Iの場合)ずつ増えていきます"
+				"そして開始電力を満たしているレシピのみを実行できます"
+				"なので、エネルギーハッチを節約することも一応できますが、めんどくさいのでしないほうがいいです"
+				"また、エネルギーハッチは全てに接続する必要はありません"
+			]
+			id: "541115427E517C12"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "105051AB1474D41C"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["541115427E517C12"]
+			id: "0A2429105A407C93"
+			tasks: [{
+				id: "38780E01B014410C"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A2429105A407C93"]
+			description: [
+				"確率が終わっているので砕いたものを再結晶するようにしましょう"
+				"ループしてしまうのでパッシブにすることがおすすめです"
+			]
+			id: "7A6B1C6BEC3310B1"
+			tasks: [{
+				id: "1BBA5DBD556DE796"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["320D33563E9302CC"]
+			id: "5C4F01E5DB720329"
+			tasks: [{
+				id: "65384235F4D06797"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			description: ["謎金属、ナクアダ"]
+			id: "7629494FF3AFB2A4"
+			tasks: [{
+				id: "54BCEBF5C47C2C15"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			description: ["一番強い酸らしい"]
+			icon: "gtceu:fluoroantimonic_acid_bucket"
+			id: "4A62CD1818EA57D5"
+			tasks: [{
+				id: "7672268F79C93E96"
+				title: "フルオロアンチモン酸"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7629494FF3AFB2A4"
+				"4A62CD1818EA57D5"
+			]
+			description: ["ループもあるよ！(地獄)"]
+			id: "4705CFFD7CA17128"
+			tasks: [{
+				id: "599C434B5566B438"
+				title: "ナクアダ処理"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4705CFFD7CA17128"]
+			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
+			id: "25ABE17F401B07C7"
+			tasks: [{
+				id: "3518EE0202DA328B"
+				title: "不純な濃縮ナクアダ溶液"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4705CFFD7CA17128"]
+			icon: "gtceu:impure_naquadria_solution_bucket"
+			id: "4D5FF93AC63BFB90"
+			tasks: [{
+				id: "1C95E55227AFAD72"
+				title: "不純なナクアダリア溶液"
+				type: "checkmark"
+			}]
+			title: "不純なナクアドリア溶液"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4705CFFD7CA17128"]
+			id: "3B33EBF98D0AD7E7"
+			tasks: [{
+				id: "5101F625B3D18030"
+				item: "gtceu:titanium_trifluoride_dust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25ABE17F401B07C7"]
+			icon: "gtceu:enriched_naquadah_solution_bucket"
+			id: "3192D4195C6678B0"
+			tasks: [{
+				id: "267EF70EB8EC1565"
+				title: "濃縮ナクアダ溶液"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D5FF93AC63BFB90"]
+			icon: "gtceu:impure_naquadria_solution_bucket"
+			id: "62395638202FFA55"
+			tasks: [{
+				id: "6FCB4C56E0DD697E"
+				title: "濃縮ナクアドリア溶液"
+				type: "checkmark"
+			}]
+			title: "ナクアドリア溶液"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D5FF93AC63BFB90"]
+			id: "0258BFADC38961CF"
+			tasks: [{
+				id: "7D52DFA44349E2B6"
+				item: "gtceu:indium_phosphide_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62395638202FFA55"]
+			icon: "gtceu:acidic_naquadria_solution_bucket"
+			id: "3F641E12EAA04425"
+			tasks: [{
+				id: "3E84A98E5B4A8BF8"
+				title: "酸性ナクアドリア溶液"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3192D4195C6678B0"]
+			icon: "gtceu:acidic_enriched_naquadah_solution_bucket"
+			id: "3F7A01361C38A268"
+			tasks: [{
+				id: "64D7819F6CFCE5D3"
+				title: "酸性濃縮ナクアダ溶液"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B33EBF98D0AD7E7"]
+			id: "5526F79E561548FF"
+			tasks: [{
+				id: "7B8721B1E1BFB53D"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0258BFADC38961CF"]
+			id: "5D28F26E7834A5D1"
+			tasks: [{
+				id: "0396285A90569826"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F641E12EAA04425"]
+			icon: "gtceu:naquadria_waste_bucket"
+			id: "40AEBCC639FF649E"
+			tasks: [{
+				id: "6194FE94508E3D1C"
+				title: "ナクアドリア残留物"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F7A01361C38A268"]
+			icon: "gtceu:enriched_naquadah_waste_bucket"
+			id: "5515B9C59410ECF6"
+			tasks: [{
+				id: "616ABBCC6D37C140"
+				title: "濃縮ナクアダ残留物"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F7A01361C38A268"]
+			id: "0665077D20F3E5A7"
+			tasks: [{
+				id: "75E662D13EB806F1"
+				item: "gtceu:enriched_naquadah_sulfate_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3F641E12EAA04425"]
+			id: "6FF0D14D48D4108D"
+			tasks: [{
+				id: "6D81C774CEB91BF1"
+				item: "gtceu:naquadria_sulfate_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"707C0410A895CCCB"
+				"0665077D20F3E5A7"
+			]
+			id: "7251D1D2A9EA76FC"
+			tasks: [{
+				id: "64EE1B4867998A94"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["478FAF488FDA8043"]
+			id: "35CF9840A15D1612"
+			tasks: [{
+				id: "4FAFC502CA25B109"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7A6B1C6BEC3310B1"
+				"22AD3C975A8E18DE"
+			]
+			id: "6E49AF35EB3C757A"
+			tasks: [{
+				id: "135EB272A7F32E89"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "22AD3C975A8E18DE"
+			tasks: [{
+				id: "1FA4C4143543ABA4"
+				item: "gtceu:lime_glass_lens"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "478FAF488FDA8043"
+			tasks: [{
+				id: "6AC186AC644FB010"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6E49AF35EB3C757A"
+				"35CF9840A15D1612"
+			]
+			id: "77CFB7E793FA2C09"
+			tasks: [{
+				id: "49641EF4BF8EA849"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["565911FB072C13B4"]
+			id: "12EECEEF7E32A9E9"
+			tasks: [{
+				id: "51F23B3D2C7F513B"
+				item: "gtceu:nand_memory_wafer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			id: "565911FB072C13B4"
+			tasks: [{
+				id: "2CA6E700F5194FF2"
+				item: "gtceu:gray_glass_lens"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A52B73E6B4B274A"]
+			description: ["さらに効率よくウェハーを加工できます"]
+			id: "68F739D0395DFEF2"
+			tasks: [{
+				id: "1209212E2C26D775"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"733C5BDA2F785756"
+				"064EF3DEB12EBFB0"
+				"0A2429105A407C93"
+			]
+			description: [
+				"核融合炉を作ることで、ついにZPM時代に入ることができます！"
+				"主な目標は研究ステーションと核融合炉MK IIです"
+			]
+			id: "24359918701F8A08"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "4E2B01796FD1472A"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "ZPM時代"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68F739D0395DFEF2"]
+			id: "29B76C37C5CAFAE8"
+			tasks: [{
+				id: "6DEE6281277A2D65"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["24359918701F8A08"]
+			id: "7D17943A3A19C161"
+			size: 1.5d
+			tasks: [
+				{
+					id: "44DAC08156EC7645"
+					item: "gtceu:zpm_electric_motor"
+					type: "item"
+				}
+				{
+					id: "32F0A7E161D02B45"
+					item: "gtceu:zpm_electric_pump"
+					type: "item"
+				}
+				{
+					id: "6ED68E6264CFC68D"
+					item: "gtceu:zpm_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "45FDA6D6756E11A7"
+					item: "gtceu:zpm_electric_piston"
+					type: "item"
+				}
+				{
+					id: "1A114DB0DD1564D0"
+					item: "gtceu:zpm_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in ZPM"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["77CFB7E793FA2C09"]
+			id: "16D1614327B912A5"
+			tasks: [{
+				id: "0150C0BF945A7004"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16D1614327B912A5"]
+			id: "177904FE7BA0BA9E"
+			tasks: [{
+				id: "224CD58A2CDC8734"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"69F6EBD19A9953B9"
+				"1E212153BA079FEC"
+				"40B72ADE14C3DAA3"
+				"513CE96985E0A529"
+				"4131CA8030EC0C9B"
+			]
+			description: [
+				"核融合炉MK IIを作ったことでUV時代に入ることができます！"
+				"主な目標は核融合炉MK IIIとニュートロニウムです"
+			]
+			id: "0BEC8FE5F66DD057"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "683E1DB5857E4016"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			title: "UV時代"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3FF28D2B4E260029"]
+			id: "40B72ADE14C3DAA3"
+			tasks: [{
+				id: "380B7027559DE8A7"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"560E8BA03D429B89"
+				"6A9E019D3C3F87D9"
+				"513CE96985E0A529"
+				"38D0A6DE7EFE0256"
+			]
+			description: ["ちくわ、ちくわ、ちくわ"]
+			id: "3FF28D2B4E260029"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7B3C8DCBCB774A4E"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3DEA272154E7BA37"]
+			id: "560E8BA03D429B89"
+			tasks: [{
+				id: "331F13B70C05402B"
+				item: "gtceu:fusion_casing_mk2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0EB775D3D2443215"]
+			id: "3DEA272154E7BA37"
+			tasks: [{
+				id: "5B1D48531FB80D55"
+				item: "gtceu:fusion_coil"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7D17943A3A19C161"]
+			id: "0EB775D3D2443215"
+			tasks: [{
+				id: "410031DED7948566"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6FF0D14D48D4108D"
+				"7C285D928B5866BD"
+			]
+			id: "6A9E019D3C3F87D9"
+			tasks: [{
+				id: "2004C5721735ED66"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"0EB775D3D2443215"
+				"7251D1D2A9EA76FC"
+			]
+			id: "7C285D928B5866BD"
+			tasks: [{
+				id: "1A1F8E7DE13F607B"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			id: "151887C56A37B725"
+			tasks: [{
+				id: "1AC3EAC5223E8EAD"
+				item: "gtceu:luv_field_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			description: ["データバンクにデータスティックを入れて、複数のアセンブリーラインにデータを共有することができます"]
+			id: "486A1CB0CE9DED8B"
+			tasks: [{
+				id: "62F69662419F86AA"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"486A1CB0CE9DED8B"
+				"151887C56A37B725"
+				"017BCE3950C93ED7"
+				"5FF9DD423275F23A"
+			]
+			description: [
+				"研究ステーションはより上位のもののスキャンに使います"
+				"供給しているCWUの量によって速度が変わります"
+			]
+			icon: "gtceu:research_station"
+			id: "5285207DAFD6AE54"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5D5333A59DCF6439"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					id: "27701BED333DAB6D"
+					item: "gtceu:advanced_computer_casing"
+					type: "item"
+				}
+				{
+					id: "72CB2C8DA2A34C4E"
+					item: "gtceu:computer_heat_vent"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D17943A3A19C161"]
+			id: "5FF9DD423275F23A"
+			tasks: [{
+				id: "510405BFC4F74597"
+				item: "gtceu:object_holder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"084CCC1DEC82583C"
+				"486A1CB0CE9DED8B"
+				"151887C56A37B725"
+				"7D17943A3A19C161"
+			]
+			description: [
+				"HPCAは、研究ステーションとセットになる機械です"
+				"HPCAで生産したCWUを研究ステーションに送ります"
+				"構成によってCWUの量が変わります"
+				"もし　必要な冷却P > 供給されている冷却P　になってしまった場合パーツが破損してしまいます"
+			]
+			icon: "gtceu:high_performance_computation_array"
+			id: "017BCE3950C93ED7"
+			tasks: [
+				{
+					id: "16DF31024AA0B0E1"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "5EACEFF3147AA87F"
+					item: "gtceu:hpca_computation_component"
+					type: "item"
+				}
+				{
+					id: "75FE5BAB87A1F1D8"
+					item: "gtceu:hpca_active_cooler_component"
+					type: "item"
+				}
+				{
+					id: "25684531ABEF90A4"
+					item: "gtceu:advanced_computer_casing"
+					type: "item"
+				}
+				{
+					id: "42FC61E7607490A0"
+					item: "gtceu:computer_heat_vent"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			icon: "gtceu:pcb_coolant_bucket"
+			id: "084CCC1DEC82583C"
+			tasks: [{
+				id: "34F7EC60EA81F423"
+				title: "PCBクーラント"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"177904FE7BA0BA9E"
+				"5285207DAFD6AE54"
+			]
+			description: ["最初のUV回路です！"]
+			id: "513CE96985E0A529"
+			tasks: [{
+				id: "18CD566F8A75B8F8"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C285D928B5866BD"]
+			id: "38D0A6DE7EFE0256"
+			tasks: [{
+				id: "4C512C0341DBACE7"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5285207DAFD6AE54"]
+			id: "26B436F578FA3BC0"
+			tasks: [{
+				id: "6082178B7FE89CD2"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1765D75138886859"
+				"3FF28D2B4E260029"
+			]
+			id: "69F6EBD19A9953B9"
+			tasks: [{
+				id: "1BA881F0CD3F8E00"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3FF28D2B4E260029"
+				"3084A75F3B1ED447"
+			]
+			id: "1E212153BA079FEC"
+			tasks: [{
+				id: "1DD6680C7BD6917F"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			icon: "gtceu:duranium_bucket"
+			id: "1765D75138886859"
+			tasks: [{
+				id: "6BEE7108831D99EC"
+				title: "デュラニウム"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69F6EBD19A9953B9"]
+			description: ["滅菌クリーンルームは基本的に通常のクリーンルームと同じですが、通常のクリーンルームのレシピを処理することはできません"]
+			id: "37F8243D0141FC8E"
+			tasks: [{
+				id: "25B0E29C6035213E"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"2FAB411F1744149A"
+				"6AF10D9A388E5002"
+			]
+			description: ["フル充電できますか？"]
+			id: "0701D62157D050EA"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "GTCEuMの最終目標"
+			tasks: [{
+				id: "311D3CFE4DBCF7DB"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"2B2D18D4AEDF4D4E"
+				"61C7BE6FF74FD521"
+			]
+			description: ["最初で最後のUHV回路です！"]
+			id: "452FE072E5BC937B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5B0A080DBAB00266"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"69F6EBD19A9953B9"
+				"5BC6DB8CE9269F44"
+			]
+			id: "5644A1ACE8FD46FB"
+			tasks: [{
+				id: "0ACB3F85B05E34DB"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0BEC8FE5F66DD057"]
+			id: "2F802001960EEF85"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3A323C1E153224F6"
+					item: "gtceu:uv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "154471EB0B5F7445"
+					item: "gtceu:uv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "74E0129C4493496E"
+					item: "gtceu:uv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "1A32FAA7E09F53CA"
+					item: "gtceu:uv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "7E6BD4DC29FD6270"
+					item: "gtceu:uv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "中間素材 in UV"
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F802001960EEF85"]
+			id: "5BC6DB8CE9269F44"
+			tasks: [{
+				id: "47C1ACF32CFF2B5E"
+				item: "gtceu:uv_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			id: "4131CA8030EC0C9B"
+			tasks: [{
+				id: "5CC79C941CC12D66"
+				item: "gtceu:yttrium_barium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1D9F17B27C150ABC"
+				"2CB2CDBB2D313887"
+			]
+			id: "3C2B4357232A0C65"
+			tasks: [{
+				id: "6D1447177F4F4DB6"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["513CE96985E0A529"]
+			id: "6237305B74C82390"
+			tasks: [{
+				id: "5D18F9BA0B7051C2"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "4C70E2643769B15C"
+			tasks: [{
+				id: "23DBAF41C74091B2"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58F8264C0AC044A6"]
+			id: "1D9F17B27C150ABC"
+			tasks: [{
+				id: "3E568B09F502EF10"
+				item: "gtceu:data_module"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A2E44A033760B0B"]
+			id: "58F8264C0AC044A6"
+			tasks: [{
+				id: "3F85985DFFF7773D"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"58F8264C0AC044A6"
+				"353E723045338E0A"
+			]
+			description: [
+				"これを作ることで最後の回路であるウェットウェア回路を作れるようになります！"
+				"しかし、クリスタル回路の方が安いと感じるならUVまでの回路は引き続きクリスタル回路を使いましょう"
+			]
+			id: "3171D1CAC316A33F"
+			tasks: [{
+				id: "3DA104C480E1ABEC"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["37F8243D0141FC8E"]
+			icon: "gtceu:sterilized_growth_medium_bucket"
+			id: "2A2E44A033760B0B"
+			tasks: [{
+				id: "3E3E98060460ABD5"
+				title: "加熱処理をした培養地"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2A2E44A033760B0B"]
+			id: "353E723045338E0A"
+			tasks: [{
+				id: "0E60164A7BF9264F"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5644A1ACE8FD46FB"]
+			id: "61C7BE6FF74FD521"
+			tasks: [{
+				id: "27B03BB79E53A213"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3171D1CAC316A33F"]
+			id: "5B1DE2E077FC3F6D"
+			tasks: [{
+				id: "4A79F7CE5E4C18A9"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26B436F578FA3BC0"]
+			id: "27882C38818FD336"
+			tasks: [{
+				id: "1A479D9D137CFA3A"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B1DE2E077FC3F6D"]
+			id: "7B309AD10C78563D"
+			tasks: [{
+				id: "1AF91D83EB7A5306"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B309AD10C78563D"]
+			id: "2B2D18D4AEDF4D4E"
+			tasks: [{
+				id: "75102DE7F72FD267"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"61C7BE6FF74FD521"
+				"4C70E2643769B15C"
+			]
+			description: ["これで複数のHPCAを接続してより多くのCWUを要求するものに対応できるようになります"]
+			id: "2CB2CDBB2D313887"
+			tasks: [{
+				id: "7CC9785E18DB5A7C"
+				item: "gtceu:network_switch"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"452FE072E5BC937B"
+				"1099ED6D55B8857C"
+			]
+			description: ["ちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわちくわ"]
+			id: "64362EE05CA6542C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "101A4C277A300012"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3AEC23A4359DBEF5"
+				"5BC6DB8CE9269F44"
+			]
+			id: "1099ED6D55B8857C"
+			tasks: [{
+				id: "4BFABEAD365F2674"
+				item: "gtceu:fusion_casing_mk3"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			id: "3AEC23A4359DBEF5"
+			tasks: [{
+				id: "358E1DED36C571A5"
+				item: "gtceu:zpm_field_generator"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["64362EE05CA6542C"]
+			description: ["最終金属！！"]
+			id: "79753F0BABD4F12A"
+			tasks: [{
+				id: "63FC5359EE037899"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["79753F0BABD4F12A"]
+			id: "045F5DB1AF7FE225"
+			tasks: [{
+				id: "1A1E8A7E13288CAD"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["045F5DB1AF7FE225"]
+			id: "019FAFE6AEC7E1A2"
+			tasks: [{
+				id: "0B495BAEDD07D4E1"
+				item: "gtceu:highly_advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79753F0BABD4F12A"]
+			id: "04390EC24CE97843"
+			tasks: [{
+				id: "6F107D08AFDF1E7A"
+				item: "gtceu:gravi_star"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04390EC24CE97843"]
+			id: "2FAB411F1744149A"
+			tasks: [{
+				id: "019F3D77823EFE2B"
+				item: "gtceu:uv_field_generator"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4BE5E6F33FDCBFB1"]
+			id: "415615BB7C096188"
+			tasks: [{
+				id: "04D3DEB27B399353"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["79753F0BABD4F12A"]
+			id: "4BE5E6F33FDCBFB1"
+			tasks: [{
+				id: "3865C3F1FF0D36DE"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4BE5E6F33FDCBFB1"]
+			id: "39D834D512015648"
+			tasks: [{
+				id: "1F708EBCC3907CD3"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"79753F0BABD4F12A"
+				"452FE072E5BC937B"
+				"59E78FA368BAB0C1"
+			]
+			description: [
+				"ニュートロニウムを作成したことにより、ついにUHV時代に入ることができます！"
+				"主な目標はもう初心者ではないという証とアルティメットバッテリーです"
+			]
+			id: "6AF10D9A388E5002"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "62589147E96CC0ED"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			title: "UHV時代"
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			icon: "gtceu:lutetium_bucket"
+			id: "3084A75F3B1ED447"
+			tasks: [{
+				id: "3A998316589C686B"
+				title: "ルテチウム"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6AF10D9A388E5002"]
+			description: [""]
+			id: "00F4CD62C1F0D06B"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "これであなたも初心者卒業です！"
+			tasks: [{
+				id: "13D4BD536E40981F"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"00F4CD62C1F0D06B"
+				"0701D62157D050EA"
+			]
+			description: ["※追加要素です"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "gtceu:max_machine_casing"
+			id: "2D6E117043819C9D"
+			shape: "none"
+			size: 3.0d
+			subtitle: "ここからはオリジナルコンテンツです"
+			tasks: [{
+				id: "7EDB71B92D4D8AAC"
+				title: "Are You Ready?"
+				type: "checkmark"
+			}]
+			title: "UHVのこの先へ"
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5285207DAFD6AE54"]
+			description: ["追加機械:ソーラーパネルを作るのに使います"]
+			id: "68A235E61CDD46BF"
+			tasks: [{
+				id: "3FDE583A7612C756"
+				item: "gtceu:solar_factory"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5177648D683A001F"]
+			id: "6FE8F8CB2617D4F9"
+			tasks: [{
+				id: "4816C9F1C96290E0"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["733C5BDA2F785756"]
+			id: "3A8C5EF0AAC0F9A4"
+			tasks: [{
+				id: "1C642F31681AD295"
+				item: "gtceu:luv_parallel_hatch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["513CE96985E0A529"]
+			id: "49B8BFE71A9AC12B"
+			tasks: [{
+				id: "6B3B72AE04C2EA76"
+				item: "gtceu:zpm_parallel_hatch"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["452FE072E5BC937B"]
+			id: "3AD7E70C86526FEF"
+			tasks: [{
+				id: "477983F330A30BDA"
+				item: "gtceu:uv_parallel_hatch"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -10.5d
+		}
+	]
+	title: "メイン進行"
+}

@@ -1,0 +1,492 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1483990FABD9ACE0"
+	group: ""
+	icon: "gtceu:nan_certificate"
+	id: "1483990FABD9ACE0"
+	order_index: 3
+	quest_links: [
+		{
+			id: "024601E9A05FC422"
+			linked_quest: "7594F4EA8D426020"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0B5DB61D276C7DE6"
+			linked_quest: "1D4D13C0B7944F56"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "6E8291E426619942"
+			linked_quest: "478D808A54110138"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "7110B403220A4556"
+			linked_quest: "67DCA7E9077EF1EC"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "0834F240FD718B86"
+			linked_quest: "066E2E018D81B114"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "33B2C11EC30DCEE9"
+			linked_quest: "302D8926930611EF"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "0E45731BC9163829"
+			linked_quest: "7A9A80BC7DF00BDC"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "300C8CAA2E099E06"
+			linked_quest: "19885DCDBC9FEDB6"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4555B8ECFEA672AF"
+			linked_quest: "512032591AAC05D3"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "0704354FFA0FA56E"
+			linked_quest: "51F0B6D762E5CE7F"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "72AF7ACE29D31843"
+			linked_quest: "67C8CFA917519FB3"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "57D87BCACF28948F"
+			linked_quest: "0958E992362F431C"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "3719C9239B2B3371"
+			linked_quest: "2F6FF3EA1D745093"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "6F7EAB1C6E2AEBE7"
+			linked_quest: "149BD2A56802AD17"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "0EBE4A47103CF066"
+			linked_quest: "3FD30030C591153F"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "4B15ACCAE1308361"
+			linked_quest: "5D0085847C4845B7"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "409EF80F07996ABC"
+			linked_quest: "05629F3EB1C91121"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "0E8A605E41B556BA"
+			linked_quest: "46A45CA8540935F9"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "59CB373F39ED9013"
+			linked_quest: "288344AB88FC0B94"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "4C122B9ED32CC0C3"
+			linked_quest: "733C5BDA2F785756"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "05796A6AB3930E74"
+			linked_quest: "77CFB7E793FA2C09"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "341BD60ED0A753A8"
+			linked_quest: "16D1614327B912A5"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "2F5C2617A4469412"
+			linked_quest: "177904FE7BA0BA9E"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "0F77E362AFE97374"
+			linked_quest: "513CE96985E0A529"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "2D1FAD44B4CFDE39"
+			linked_quest: "5B1DE2E077FC3F6D"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "7C2636D32DC53401"
+			linked_quest: "7B309AD10C78563D"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "51514F1650EB9918"
+			linked_quest: "2B2D18D4AEDF4D4E"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "7F7FEBE0F665CD09"
+			linked_quest: "452FE072E5BC937B"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "49AD36DEE7857840"
+			linked_quest: "0B522C788A75B838"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "31CB809CED9C84C9"
+			linked_quest: "1E7D39A282E9E398"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "417F617AC2908557"
+			linked_quest: "3DF0B9E57275BCDF"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "2AFFFE3573F41684"
+			linked_quest: "4F7C04BA777C0805"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "1FFD7281ED8443B4"
+			linked_quest: "135FD862C9D0108D"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "259291628BFE6357"
+			linked_quest: "170393EE34E4F697"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "2B1FEA2F94B1259C"
+			linked_quest: "091F16F04F95CA90"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "734E877B93FF7498"
+			linked_quest: "24359918701F8A08"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "3C2DEFC892CBE4B2"
+			linked_quest: "0BEC8FE5F66DD057"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "0D88581364E06DC4"
+			linked_quest: "6AF10D9A388E5002"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "7BF73B5E78A2A707"
+			linked_quest: "6110EC6356558EAF"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7F1C7D4CB0B1C4DC"
+			linked_quest: "44C2E96354AC89C6"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "7A4C9267E7EE379C"
+			linked_quest: "556A6E3E66066843"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "0622435282131A34"
+			linked_quest: "43439BD1005B4D57"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "60F8AA672271561C"
+			linked_quest: "03F97125A85B589F"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "3AE81104F329A839"
+			linked_quest: "63CA229C5A934837"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "53E32408AB5D8D17"
+			linked_quest: "541115427E517C12"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "19998FC0359D7424"
+			linked_quest: "3FF28D2B4E260029"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "54CE83624D724EBF"
+			linked_quest: "5285207DAFD6AE54"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "5C12DFA51DED9E84"
+			linked_quest: "64362EE05CA6542C"
+			x: -3.0d
+			y: 7.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"2FEC65639708DD22"
+				"6051D7FEAE374CB2"
+			]
+			id: "59E78FA368BAB0C1"
+			tasks: [{
+				id: "2245EDBA17A6B598"
+				item: "gtnn:gooware_mainframe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2FEC65639708DD22"
+				"6051D7FEAE374CB2"
+			]
+			id: "3EF21BA61F14A08F"
+			tasks: [{
+				id: "5B42FD17F5B3C7D5"
+				item: "gtnn:gooware_computer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2FEC65639708DD22"]
+			id: "6051D7FEAE374CB2"
+			tasks: [{
+				id: "5F740A48A3F4AE84"
+				item: "gtnn:gooware_assembly"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3171D1CAC316A33F"]
+			id: "2FEC65639708DD22"
+			tasks: [{
+				id: "4C1322173D33E26E"
+				item: "gtnn:gooware_processor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6FBB2C5DC168AEE9"
+				"5741E0C973F5AEF6"
+			]
+			id: "1679EBBC6E85ABDC"
+			tasks: [{
+				id: "086D10FD9D60772D"
+				item: "gtnn:spintronic_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5741E0C973F5AEF6"]
+			id: "6FBB2C5DC168AEE9"
+			tasks: [{
+				id: "04995A23BD97049C"
+				item: "gtnn:spintronic_computer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3171D1CAC316A33F"
+				"2BA1D7A10393C0F1"
+			]
+			id: "5741E0C973F5AEF6"
+			tasks: [{
+				id: "6981E5F6741E6BEE"
+				item: "gtnn:spintronic_assembly"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3171D1CAC316A33F"
+				"77ADE1C7D9DAB515"
+				"014FBA90CA0FCFBE"
+			]
+			id: "4E422CE7D7800647"
+			tasks: [{
+				id: "45EDDE4602C9B628"
+				item: "gtnn:supracausal_mainframe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"59E78FA368BAB0C1"
+				"1679EBBC6E85ABDC"
+			]
+			id: "379271965729DAEB"
+			tasks: [{
+				id: "598AB353072898A3"
+				item: "gtceu:uev_machine_hull"
+				type: "item"
+			}]
+			title: "UEV時代"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1679EBBC6E85ABDC"
+				"4E422CE7D7800647"
+			]
+			id: "7288BC9CEBDFB7CF"
+			tasks: [{
+				id: "717805757C78C845"
+				item: "gtceu:uxv_machine_hull"
+				type: "item"
+			}]
+			title: "UXV時代"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E422CE7D7800647"]
+			id: "2A718997A4EC2B5A"
+			tasks: [{
+				id: "131B46BE126CADDB"
+				item: "gtceu:max_machine_hull"
+				type: "item"
+			}]
+			title: "MAX時代"
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["014FBA90CA0FCFBE"]
+			id: "77ADE1C7D9DAB515"
+			tasks: [{
+				id: "4942F31B66E51BC4"
+				item: "gtnn:supracausal_computer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3CB1AD24091618A2"]
+			id: "014FBA90CA0FCFBE"
+			tasks: [{
+				id: "606A6272739AD200"
+				item: "gtnn:supracausal_assembly"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3171D1CAC316A33F"]
+			id: "3CB1AD24091618A2"
+			tasks: [{
+				id: "7975FBED13365ABF"
+				item: "gtnn:supracausal_processor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3171D1CAC316A33F"]
+			id: "2BA1D7A10393C0F1"
+			tasks: [{
+				id: "06D2C908C1AC7135"
+				item: "gtnn:spintronic_processor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+	]
+	title: "進捗"
+}

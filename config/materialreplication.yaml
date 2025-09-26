@@ -1,0 +1,101 @@
+RecipeConfig:
+  # Whether to add the UUMatter RecipeConfig.
+  # Default : false
+  AddMatterRecipe: false
+
+  # Whether to required Cleanroom  when create UU-Matter
+  # Default: NONE
+  # valid: [NONE, CLEANROOM, STERILE]
+  CleanroomType: NONE
+
+  # Ratio of UUMatter created from two maters
+  # ChargedMatter, NeutralMatter, UUMatter
+  # Default: 50, 50, 50
+  MatterRatio:
+    - 50
+    - 50
+    - 50
+
+  # Ratio of matter amplification
+  # Matter Amplifier, Charge/Neutral Matter (Input), Charge/Neutral Matter (Output)
+  # Default: 50, 50, 50
+  MatterAmplificationRatio:
+    - 500
+    - 500
+    - 1000
+
+DeconstructionConfig:
+  # Deconstruction Base time in tick (int).
+  # Default : 600 tick (30 Sec.)
+  # Duration : BaseTime * material's Average mass
+  DeconstructionBaseTime: 600
+
+  # Deconstruction Base Voltage in Long.
+  # Default : 30 (LV)
+  DeconstructionVoltage: 30
+
+  # If true, only Elements can be deconstructed.
+  # Default: false
+  DeconstructOnlyElements: false
+
+  # Material Blacklist for Deconstruction
+  # This setting is valid only for materials with chemical formulas
+  # Default: granite, andesite, diorite, clay, brick, obsidian, flint, ice, charcoal, gunpowder, sugar, granite_black, granite_red, marble, basalt, quicklime, redrock, ash, concrete, dark_ash, water, distilled_water, steam
+  MaterialsForDeconstructionBlacklist:
+    - granite
+    - andesite
+    - diorite
+    - clay
+    - brick
+    - obsidian
+    - flint
+    - ice
+    - charcoal
+    - gunpowder
+    - sugar
+    - granite_black
+    - granite_red
+    - marble
+    - basalt
+    - quicklime
+    - redrock
+    - ash
+    - concrete
+    - dark_ash
+    - water
+    - distilled_water
+    - steam
+
+  # Add material to Deconstruct whitelist which does not have chemical formula
+  MaterialsForDeconstructionWhitelist:
+
+ReplicationConfig:
+  # Replication Base time in tick (int).
+  # Default : 1200 tick (60 Sec.)
+  # Duration : BaseTime * material's Average mass
+  ReplicationBaseTime: 1
+
+  # Replication Base Voltage in int.
+  # Default : 30 (LV)
+  ReplicationVoltage: 30
+
+  # Material Scan time in tick (int).
+  # Default : 1200 tick (60 Sec.)
+  ScanTime: 2100000
+
+  # Material Scan Voltage in int.
+  # Default : 30 (LV)
+  ScanVoltage: 1
+
+  # If true, only Elements can be replicated.
+  # Default: false
+  ReplicateOnlyElements: false
+
+  # Material Blacklist for Replication
+  # This setting is valid only for materials with chemical formulas
+  # Default: 
+  MaterialsForReplicationBlacklist:
+
+  # Add material to Replicate whitelist which does not have chemical formula
+  MaterialsForReplicationWhitelist:
+

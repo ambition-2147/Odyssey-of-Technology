@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1483990FABD9ACE0"
+	group: ""
+	icon: "gtceu:nan_certificate"
+	id: "1483990FABD9ACE0"
+	order_index: 3
+	quest_links: [
+		{
+			id: "024601E9A05FC422"
+			linked_quest: "7594F4EA8D426020"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0B5DB61D276C7DE6"
+			linked_quest: "1D4D13C0B7944F56"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "6E8291E426619942"
+			linked_quest: "478D808A54110138"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "7110B403220A4556"
+			linked_quest: "67DCA7E9077EF1EC"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "0834F240FD718B86"
+			linked_quest: "066E2E018D81B114"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "33B2C11EC30DCEE9"
+			linked_quest: "302D8926930611EF"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "0E45731BC9163829"
+			linked_quest: "7A9A80BC7DF00BDC"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "300C8CAA2E099E06"
+			linked_quest: "19885DCDBC9FEDB6"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4555B8ECFEA672AF"
+			linked_quest: "512032591AAC05D3"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "0704354FFA0FA56E"
+			linked_quest: "51F0B6D762E5CE7F"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "72AF7ACE29D31843"
+			linked_quest: "67C8CFA917519FB3"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "57D87BCACF28948F"
+			linked_quest: "0958E992362F431C"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "3719C9239B2B3371"
+			linked_quest: "2F6FF3EA1D745093"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "6F7EAB1C6E2AEBE7"
+			linked_quest: "149BD2A56802AD17"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "0EBE4A47103CF066"
+			linked_quest: "3FD30030C591153F"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "4B15ACCAE1308361"
+			linked_quest: "5D0085847C4845B7"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "409EF80F07996ABC"
+			linked_quest: "05629F3EB1C91121"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "0E8A605E41B556BA"
+			linked_quest: "46A45CA8540935F9"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "59CB373F39ED9013"
+			linked_quest: "288344AB88FC0B94"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "4C122B9ED32CC0C3"
+			linked_quest: "733C5BDA2F785756"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "05796A6AB3930E74"
+			linked_quest: "77CFB7E793FA2C09"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "341BD60ED0A753A8"
+			linked_quest: "16D1614327B912A5"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "2F5C2617A4469412"
+			linked_quest: "177904FE7BA0BA9E"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "0F77E362AFE97374"
+			linked_quest: "513CE96985E0A529"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "2D1FAD44B4CFDE39"
+			linked_quest: "5B1DE2E077FC3F6D"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "7C2636D32DC53401"
+			linked_quest: "7B309AD10C78563D"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "51514F1650EB9918"
+			linked_quest: "2B2D18D4AEDF4D4E"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "7F7FEBE0F665CD09"
+			linked_quest: "452FE072E5BC937B"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "49AD36DEE7857840"
+			linked_quest: "0B522C788A75B838"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "31CB809CED9C84C9"
+			linked_quest: "1E7D39A282E9E398"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "417F617AC2908557"
+			linked_quest: "3DF0B9E57275BCDF"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "2AFFFE3573F41684"
+			linked_quest: "4F7C04BA777C0805"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "1FFD7281ED8443B4"
+			linked_quest: "135FD862C9D0108D"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "259291628BFE6357"
+			linked_quest: "170393EE34E4F697"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "2B1FEA2F94B1259C"
+			linked_quest: "091F16F04F95CA90"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "734E877B93FF7498"
+			linked_quest: "24359918701F8A08"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "3C2DEFC892CBE4B2"
+			linked_quest: "0BEC8FE5F66DD057"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "0D88581364E06DC4"
+			linked_quest: "6AF10D9A388E5002"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "7BF73B5E78A2A707"
+			linked_quest: "6110EC6356558EAF"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7F1C7D4CB0B1C4DC"
+			linked_quest: "44C2E96354AC89C6"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "7A4C9267E7EE379C"
+			linked_quest: "556A6E3E66066843"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "0622435282131A34"
+			linked_quest: "43439BD1005B4D57"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "60F8AA672271561C"
+			linked_quest: "03F97125A85B589F"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "3AE81104F329A839"
+			linked_quest: "63CA229C5A934837"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "53E32408AB5D8D17"
+			linked_quest: "541115427E517C12"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "19998FC0359D7424"
+			linked_quest: "3FF28D2B4E260029"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "54CE83624D724EBF"
+			linked_quest: "5285207DAFD6AE54"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "5C12DFA51DED9E84"
+			linked_quest: "64362EE05CA6542C"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "2A1737FB6F789081"
+			linked_quest: "253257F8DF6323EE"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "0E706A6C55FF3A19"
+			linked_quest: "7D55AB3C211354DE"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "64D53B31818FD8C8"
+			linked_quest: "3E110AE9A4061A92"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "268B719F949EB36F"
+			linked_quest: "67F78AF252F6B90B"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "537DF4D64864857B"
+			linked_quest: "001990B5393A4869"
+			x: 2.0d
+			y: 9.0d
+		}
+	]
+	quests: [ ]
+	title: "進捗"
+}

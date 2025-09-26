@@ -1,0 +1,10 @@
+const $EnergyHatchPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.EnergyHatchPartMachine')
+const $IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
+
+event.create('energy_input_hatch', 'custom').tiers(GTValues.MAX)
+            .definition((tier, builder) => {
+                builder.rotationState(RotationState.ALL)
+                    .abilities(PartAbility.INPUT_ENERGY)
+                    .overlayTieredHullRenderer("energy_hatch.input")
+            }).machine((holder) => { return new $EnergyHatchPartMachine(holder, GTValues.MAX, $IO.IN, 2) })
+        

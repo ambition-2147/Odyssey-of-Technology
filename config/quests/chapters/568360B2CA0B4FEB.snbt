@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "568360B2CA0B4FEB"
+	group: ""
+	id: "568360B2CA0B4FEB"
+	order_index: 2
+	quest_links: [
+		{
+			id: "1629F1C3E0879C9D"
+			linked_quest: "1E7D39A282E9E398"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "5A2F757B82ABD1FB"
+			linked_quest: "3DF0B9E57275BCDF"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "1C870FD5218F5AC3"
+			linked_quest: "4F7C04BA777C0805"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "35A041580684F1C4"
+			linked_quest: "135FD862C9D0108D"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "5FB1D94532F3D10B"
+			linked_quest: "170393EE34E4F697"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "70A68CB9734CA798"
+			linked_quest: "091F16F04F95CA90"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "53BA3C48AFF21483"
+			linked_quest: "24359918701F8A08"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			id: "60C5B7E6485E75EB"
+			linked_quest: "0BEC8FE5F66DD057"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "230AAA365EA6AA6F"
+			linked_quest: "6AF10D9A388E5002"
+			x: 18.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1E7D39A282E9E398"
+				"1FAE9B4AD6C6CCB0"
+			]
+			id: "4A8A430B6E9B46D3"
+			tasks: [{
+				id: "60146708886EEE16"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3DF0B9E57275BCDF"
+				"1FAE9B4AD6C6CCB0"
+			]
+			id: "62625CDAED55344F"
+			tasks: [{
+				id: "64E64BC9A548F4A8"
+				item: "gtceu:steel_large_boiler"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"135FD862C9D0108D"
+				"1FAE9B4AD6C6CCB0"
+			]
+			id: "220AA861D6F06BC5"
+			tasks: [{
+				id: "6444604BE17CF446"
+				item: "gtceu:titanium_large_boiler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"170393EE34E4F697"
+				"1FAE9B4AD6C6CCB0"
+			]
+			id: "33CF3B43E01EE1EE"
+			tasks: [{
+				id: "7BF8D8B144FA94D6"
+				item: "gtceu:tungstensteel_large_boiler"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DF0B9E57275BCDF"]
+			icon: "gtceu:bio_diesel_bucket"
+			id: "518345DA8CD56AEA"
+			tasks: [{
+				id: "242077ABA5F5FD79"
+				title: "バイオディーゼル"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DF0B9E57275BCDF"]
+			icon: "gtceu:naphtha_bucket"
+			id: "71B01CA0FC47BC08"
+			tasks: [{
+				id: "1FBE41E0BCB10B0C"
+				title: "ナフサ"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F7C04BA777C0805"]
+			icon: "gtceu:rocket_fuel_bucket"
+			id: "320AC7642F63F837"
+			tasks: [{
+				id: "1DF2CF61A4070524"
+				title: "ロケット燃料"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F7C04BA777C0805"
+				"21BB0F3E64F08159"
+			]
+			icon: "gtceu:cetane_boosted_diesel_bucket"
+			id: "2A580049403DC71C"
+			tasks: [{
+				id: "3E219DEB4927BB4A"
+				title: "セタン価ディーゼル"
+				type: "checkmark"
+			}]
+			title: "セタン添加ディーゼル"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F7C04BA777C0805"]
+			icon: "gtceu:gasoline_bucket"
+			id: "35CB34860CFA7D1B"
+			tasks: [{
+				id: "64786EA102864913"
+				title: "ガソリン"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"135FD862C9D0108D"
+				"35CB34860CFA7D1B"
+			]
+			icon: "gtceu:high_octane_gasoline_bucket"
+			id: "0BA013F0182340E4"
+			tasks: [{
+				id: "188171E75662C893"
+				title: "高オクタン価ガソリン"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DF0B9E57275BCDF"]
+			icon: "gtceu:diesel_bucket"
+			id: "21BB0F3E64F08159"
+			tasks: [{
+				id: "4DC0D5AC9CAE3C9C"
+				title: "ディーゼル"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DF0B9E57275BCDF"]
+			icon: "gtceu:benzene_bucket"
+			id: "272862AC2E779F79"
+			tasks: [{
+				id: "4AE220CAD3085154"
+				title: "ベンゼン"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4F7C04BA777C0805"
+				"272862AC2E779F79"
+			]
+			icon: "gtceu:nitrobenzene_bucket"
+			id: "25995D60DBFF61DE"
+			tasks: [{
+				id: "684627D57CF5265D"
+				title: "ニトロベンゼン"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["091F16F04F95CA90"]
+			icon: "gtceu:helium_plasma_bucket"
+			id: "44C742CBD2477BC6"
+			tasks: [{
+				id: "537E9E05909FDBDF"
+				title: "ヘリウムプラズマ"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24359918701F8A08"]
+			icon: "gtceu:argon_plasma_bucket"
+			id: "1C8782956ACF6E98"
+			tasks: [{
+				id: "318DEA702512932D"
+				title: "アルゴンプラズマ"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24359918701F8A08"]
+			icon: "gtceu:tin_plasma_bucket"
+			id: "5949EC5B98DB5787"
+			tasks: [{
+				id: "542156216053994B"
+				title: "錫プラズマ"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BEC8FE5F66DD057"]
+			icon: "gtceu:americium_plasma_bucket"
+			id: "29EB16F78D12FF0C"
+			tasks: [{
+				id: "28170A9834D9565A"
+				title: "アメリシウムプラズマ"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DF0B9E57275BCDF"]
+			icon: "gtceu:light_fuel_bucket"
+			id: "42614AA43E4E4B1E"
+			tasks: [{
+				id: "0FD5F96E992E9220"
+				title: "軽質燃料"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E7D39A282E9E398"]
+			icon: "gtceu:steam_bucket"
+			id: "1FAE9B4AD6C6CCB0"
+			tasks: [{
+				id: "72B26E51A6D99BDC"
+				title: "蒸気"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24359918701F8A08"]
+			icon: "gtceu:iron_plasma_bucket"
+			id: "73CC31A0CE465E37"
+			tasks: [{
+				id: "1D43E442239AED4C"
+				title: "鉄プラズマ"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+	]
+	title: "発電"
+}
